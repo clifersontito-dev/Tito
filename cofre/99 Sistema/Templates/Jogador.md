@@ -6,6 +6,8 @@ classe: ""
 nivel: 1
 divindade: ""
 status: vivo
+pv: 10
+defesa: 10
 ---
 
 # {{titulo}}

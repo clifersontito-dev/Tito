@@ -31,6 +31,11 @@ Se o painel aparecer com blocos de código em vez de gráficos, feche e abra o O
 | Ligar uma coisa a outra | Escreva `[[` e o nome da nota. O Obsidian completa sozinho |
 | Ver os caminhos à frente | Seção **🧭 Caminhos à frente** no painel, ou o **🗺️ Mapa de Caminhos** |
 | Avançar uma ameaça | Abra a ameaça e aumente `relogio_atual` no topo da nota |
+| Mostrar o mapa de Arton pros jogadores numa TV | No Mapa de Arton, botão **🖥️ Jogadores**, depois arraste a aba nova pra outra janela (ou clique com o botão direito nela → **Abrir em nova janela**) |
+| Revelar um lugar aos poucos | No cartão do marcador (mapa do mestre): estado **👁️ Revelado** e/ou **🌫️ Neblina: Aberta** — a tela dos jogadores anima sozinha |
+| Rolar um dado que os jogadores veem | Botão **🎲 Dados** no Mapa de Arton (ou dentro de um combate) |
+| Rodar um combate | No cartão de um marcador com imagem na galeria: **⚔️ Mapa de batalha** |
+| Atualizar o rastro do grupo | Comando **"Atualizar o rastro do grupo pelas sessões"** (Ctrl/Cmd+P) |
 
 **A regra que faz tudo funcionar:** sempre que escrever o nome de um NPC, lugar ou deus, coloque entre `[[ ]]`. É isso que cria as linhas do globo.
 
@@ -51,7 +56,7 @@ O cofre vem com:
 
 ## Plugins que já vêm instalados
 - **Globo de Arton**: o globo 3D, feito sob medida para este cofre
-- **Mapa de Arton**: mapa de Arton com zoom, marcadores que criam notas, camadas, régua de viagem e galeria (etapa 1; mais etapas em `99 Sistema/Projeto - Mapa de Arton.md`)
+- **Mapa de Arton**: mapa com marcadores, régua e galeria; tela dos jogadores com neblina e revelação dramática; mapa de batalha com iniciativa e PV; rolador de dados; rastro automático pelas sessões (as 5 etapas — detalhes em `99 Sistema/Projeto - Mapa de Arton.md`)
 - **Dataview**: as tabelas e os relógios do painel
 - **Homepage**: abre o painel quando o Obsidian inicia
 - **New 3D Graph**: um segundo grafo 3D, de reserva (comando "Open 3d graph")

@@ -1,13 +1,15 @@
 ---
 tipo: ideia
 projeto: mapa-de-arton
-status: etapa 1 construída
+status: etapas 1 a 5 construídas
 ---
 
-# Mapa de Arton no cofre: design em construção (só ideia, não construir ainda)
+# Mapa de Arton no cofre: design (e agora as 5 etapas construídas)
 
 ## Contexto
-O cofre "Arton do Tito" (Obsidian, campanha de Tormenta 20, Globo 3D, painel) já existe na branch `claude/obsidian-capabilities-688e5b` (PR #1). O Tito viu o site mapadearton.fichasdenimb.com.br e quer um mapa de Arton parecido dentro do cofre, com mais funções para mestrar. **Por enquanto estamos só desenhando juntos. Não é para construir.** Quando for construir: numa conversa nova, no Sonnet, em etapas.
+O cofre "Arton do Tito" (Obsidian, campanha de Tormenta 20, Globo 3D, painel) já existe na branch `claude/obsidian-capabilities-688e5b` (PR #1). O Tito viu o site mapadearton.fichasdenimb.com.br e quer um mapa de Arton parecido dentro do cofre, com mais funções para mestrar.
+
+As seções abaixo ("Decisões já tomadas", "Modo combate", "Rolador de dados") são o desenho original, mantidas como registro. As seções "Etapa N: construída", mais abaixo, dizem o que de fato foi feito e onde esse desenho foi simplificado.
 
 ## Decisões já tomadas
 1. **Mapa:** imagem do mapa de Arton (fornecida pelo Tito, uso pessoal), com zoom e arrastar.
@@ -31,7 +33,7 @@ O cofre "Arton do Tito" (Obsidian, campanha de Tormenta 20, Globo 3D, painel) j�
 
 17. **Origem dos sons:** anexar arquivo (MP3, funciona offline) ou colar um link do YouTube.
 
-## Modo combate (em desenho)
+## Modo combate (etapa 3 — construído, ver seção mais abaixo pras diferenças)
 - Ideia base: de dentro de um marcador, o mestre abre um **mapa de batalha** (uma imagem da galeria daquele local) com grade de quadrados de 1,5 m, fichas dos PJs e dos monstros, e ordem de iniciativa. A troca para a TV usa o efeito dramático.
 - **Grade e fichas:** fichas redondas arrastáveis de PJs e monstros.
 - **Iniciativa:** lista de turnos; "próximo" faz a ficha da vez brilhar na TV.
@@ -50,48 +52,55 @@ O cofre "Arton do Tito" (Obsidian, campanha de Tormenta 20, Globo 3D, painel) j�
   - *Chefe:* retrato e nome do chefe em letras grandes, estilo apresentação de chefe
 - **Música:** só o som do efeito de abertura, sem trilha durante a luta (a trilha fica por conta da mesa).
 
-## Rolador de dados
+## Rolador de dados (etapa 4 — construído, ver seção mais abaixo pras diferenças)
 - **Dados 3D na TV:** os dados caem e rolam na tela dos jogadores, com som, e o resultado aparece grande no fim.
 - **Botões rápidos:** 1d20, 2d6, 1d8... e expressões como "1d20+7" ou "3d6+2".
 - **Rolar pelo monstro:** no combate, clicar no ataque do monstro rola o ataque e o dano com os números da nota dele.
 - **Crítico e falha:** 20 natural = explosão dourada e som épico; 1 natural = a tela racha e toca som de fracasso.
 - (Rolagens secretas: não pedidas por ora.)
 
-## Etapas sugeridas (quando for construir, cada uma numa conversa nova, no Sonnet)
+## Etapas — todas construídas
 1. **Básico:** mapa, zoom, marcadores (criar clicando → nota no cofre), camadas, régua, galeria com tela cheia
 2. **Mesa:** tela dos jogadores (segue a do mestre, com botão congelar), neblina por marcador, três estados, revelação dramática, sons por lugar
-3. **Combate:** mapa de batalha com grade, fichas, iniciativa (rodadas, reordenar, aviso de próximo), PV e condições, neblina de sala, efeitos de abertura
-4. **Dados:** rolador 3D na TV, botões rápidos, rolar pelo monstro, efeitos de crítico e falha
-5. **Magia:** rastro automático das sessões e ligação com o globo
+3. **Combate:** mapa de batalha com grade, fichas, iniciativa (rodadas, reordenar, atrasar), PV e condições, neblina de sala, efeitos de abertura
+4. **Dados:** rolador com botões rápidos e expressões, rolar pelo monstro, efeitos de crítico e falha, na tela dos jogadores
+5. **Magia:** rastro automático pelas sessões e ligação com o globo
 
-Arquitetura provável: um plugin próprio no cofre (como o `globo-arton`), com a tela dos jogadores numa janela separada do Obsidian (arrastada para a TV). A imagem do mapa de Arton é fornecida pelo Tito (uso pessoal).
+Arquitetura: um plugin só (`mapa-arton`, no mesmo estilo do `globo-arton`), com a tela dos jogadores sendo uma aba do Obsidian que o Tito arrasta pra uma janela/TV separada (recurso nativo do Obsidian — "Abrir em nova janela" no menu da aba). A imagem do mapa de Arton é fornecida pelo Tito (uso pessoal), salva em `99 Sistema/Anexos/mapa-arton.jpg`.
 
+## Etapa 1: construída (básico)
+Mapa com zoom (rodinha) e arrastar; **+ Marcador** cria a nota certa (Reino/Local/NPC) com `mapa_x`/`mapa_y` no frontmatter; **Camadas** por tipo; **Régua** calibrada clicando dois pontos na régua de km do mapa, mostra km e dias a pé/cavalo/barco; **Galeria** (lista `galeria` no frontmatter) com tela cheia. Embutido no 🏠 Painel e com aba própria (ícone 🗺️).
 
-## Como pedir cada etapa
-Numa conversa nova (no Sonnet), diga: *"Leia `cofre/99 Sistema/Projeto - Mapa de Arton.md` e construa a etapa 1"*, e anexe a imagem do mapa de Arton.
+## Etapa 2: construída (mesa)
+- **Tela dos jogadores:** comando/botão "🖥️ Jogadores" abre uma aba (`mapa-arton-jogadores-view`); o Tito arrasta essa aba pra uma janela separada (TV). Ela só mostra, nunca deixa mexer no mapa — segue o mestre em tempo real (mesmo ponto central do mapa + mesmo zoom, recalculado pro tamanho de cada tela).
+- **Três estados** (`mapa_estado`: oculto/rumor/revelado, chips no cartão do marcador). Nota sem o campo conta como revelada, pra não sumir marcador nenhum da etapa 1 de repente. Rumor aparece como ❓ sem nome pros jogadores.
+- **Neblina por marcador** (`mapa_neblina` + `mapa_raio`, em % da largura do mapa): um círculo de "terreno visto" independente do estado do marcador (dá pra abrir a neblina de um lugar sem revelar o marcador, e vice-versa, como a decisão 9 pedia).
+- **Revelação dramática:** revelar um marcador (ou abrir a neblina dele) faz a câmera dos jogadores animar até lá e o marcador brilhar; a neblina se abre sozinha com uma transição CSS (não precisou animar cada quadro em JS).
+- **Botão congelar:** enquanto ligado, nada do que o mestre faz chega na tela dos jogadores; ao soltar, o estado mais recente (posição da câmera + o último foco) é aplicado de uma vez.
+- **Som por lugar:** `mapa_som` no frontmatter — um link do YouTube (toca num iframe escondido) ou um anexo do cofre (toca num `<audio>`); dispara quando o mestre foca o marcador.
+- **Rastro do grupo:** botão "🧭 Trilha" no mapa do mestre marca pontos por onde o grupo passou; vira um túnel na neblina.
+- **Simplificação:** o raio da neblina é em % da largura do mapa (não em km reais) — mais simples de calibrar visualmente do que converter pela régua, e o mestre ajusta pelo número no cartão vendo o resultado.
 
-## Etapa 1: construída
+## Etapa 3: construída (combate)
+- No cartão de um marcador com `galeria`, botão "⚔️ Mapa de batalha" (escolhe a imagem se houver mais de uma) → escolhe o estilo de abertura → abre o combate numa aba própria do mestre; a tela dos jogadores troca sozinha do mapa-múndi pro combate (e volta ao fechar).
+- **Grade:** linhas sobre a imagem, em % (não calibrada em metros reais — é só uma referência visual, o Tito ajusta a "sensação" de escala pela imagem escolhida).
+- **Fichas:** "+ PJ"/"+ Monstro" buscam nas notas de `03 Personagens/Jogadores/`/`04 Bestiário/` (usando os campos novos `pv`/`defesa`/`ataques` dos modelos) ou criam uma ficha avulsa (nome + PV). Arrastáveis (só o mestre).
+- **Iniciativa:** lista com valor editável, ▲/▼ e "Atrasar" (manda pro fim da lista); troca de turno preserva de quem é a vez mesmo reordenando. "▶️ Próximo turno" avança e soma rodada ao dar a volta.
+- **PV e condições:** só o mestre vê o número; os jogadores veem "ileso"/"ferido"/"quase morto"/"caído". Seis condições com ícone (caído, atordoado, envenenado, cego, agarrado, amedrontado).
+- **Neblina de sala:** um círculo de luz fixo em volta de cada PJ (não ajustável ainda por PJ/classe).
+- **Abertura:** 3 estilos (videogame com tremor de tela, cinematográfico, chefe), com efeito visual + som sintetizado (ver etapa 4).
+- **Fim do combate:** só fecha e volta ao mapa-múndi; nada é registrado automaticamente.
+- **Simplificação:** sem "aviso de próximo" separado (o banner de rodada já mostra de quem é a vez) e sem contador de duração de condição — o mestre remove a condição na mão quando passar.
 
-Plugin **`mapa-arton`** (`cofre/.obsidian/plugins/mapa-arton/`), no mesmo estilo do `globo-arton`, com o que a etapa 1 pedia:
-- Mapa (`99 Sistema/Anexos/mapa-arton.jpg`) com zoom (rodinha) e arrastar
-- **+ Marcador:** clicar no mapa → escolher Reino / Local / NPC e o nome → cria a nota no cofre (modelo certo, pasta certa) e grava `mapa_x`/`mapa_y` no frontmatter dela
-- **Camadas:** chips por tipo de marcador, para mostrar/esconder
-- **Régua:** calibra uma vez clicando dois pontos na régua de km impressa no mapa; depois disso, cada medição mostra km e dias a pé/cavalo/barco (velocidades ajustáveis pelo comando "Ajustar velocidades de viagem")
-- **Galeria:** nota com uma lista `galeria` de imagens no frontmatter mostra miniaturas no cartão do marcador; clique abre em tela cheia, com setas para navegar
-- Embutido no 🏠 Painel (bloco `mapa-arton`) e com tela cheia própria (ícone 🗺️ na barra lateral)
+## Etapa 4: construído (dados)
+- Botão "🎲 Dados" (no mapa-múndi e no combate) com atalhos (1d20, 1d4...1d100) e um campo de expressão (`1d20+7`, `3d6+2`...). Aparece animado na tela dos jogadores: gira uns instantes e para no resultado, com o cálculo detalhado embaixo (`[rolagens]+mod`).
+- **Rolar pelo monstro:** os botões de ataque da ficha (etapa 3) rolam o acerto (`1d20+bônus`) e o dano (a expressão da nota) direto.
+- **Crítico/falha:** só para `1d20` puro — 20 natural fica dourado, 1 natural fica vermelho, cada um com um som diferente.
+- **Simplificação grande:** os dados são 2D (giram uns números até parar), não um dado 3D caindo com física — dava muito mais trabalho pra um ganho pequeno. O som **não vem de nenhum arquivo**: é sintetizado na hora com a Web Audio API (osciladores), então funciona sem o Tito precisar gravar nada.
 
-Etapas 2 a 5 (tela dos jogadores, neblina, combate, dados, rastro automático) continuam como desenho, não construídas.
+## Etapa 5: construído (rastro automático + globo)
+- **Comando "Atualizar o rastro do grupo pelas sessões":** lê as notas de `01 Campanha/Sessões/` em ordem de `numero`, segue os links de `locais` de cada uma e monta o rastro do grupo (trilha na neblina) com essa sequência; de passagem, revela (estado + neblina) cada local que ainda não estava revelado. É um comando, não automático a cada nota salva — pra não mexer no jogo sem o mestre mandar.
+- **"🌐 Ver no globo":** no cartão de um marcador, abre o Globo de Arton e seleciona a mesma nota nele (usa o Globo já instalado; não foi mexido nada no plugin `globo-arton`, só chamado de fora). Não tem o inverso ainda (um "🗺️ ver no mapa" a partir do Globo).
 
-## Para o próximo chat continuar
-
-**Onde está o trabalho:** branch `claude/affectionate-cray-nz3yjm` (aberta a partir de `claude/obsidian-capabilities-688e5b`, commit `fe14ca2`, que é onde este arquivo de projeto vive). Ainda **não tem PR aberto** e **não foi mesclada** na `main`. Se o Tito já tiver pedido/aprovado um PR dessa branch, comece a próxima etapa a partir dela; senão, pergunte antes de assumir que já foi mesclada.
-
-**O que já existe (etapa 1):**
-- Plugin `cofre/.obsidian/plugins/mapa-arton/` (`main.js`, `manifest.json`, `styles.css`) — ver a seção "Etapa 1: construída" acima para a lista de funções.
-- Imagem do mapa em `cofre/99 Sistema/Anexos/mapa-arton.jpg`.
-- Registrado em `cofre/.obsidian/community-plugins.json` e embutido no `🏠 Painel.md`.
-- Dados de calibração da régua e velocidades de viagem ficam em `cofre/.obsidian/plugins/mapa-arton/data.json` (criado pelo próprio Obsidian na primeira vez que o Tito usar a régua — não existe ainda no repositório).
-
-**Testado como:** simulação de Obsidian num Chromium headless (matemática de zoom/pan, calibração e medição da régua, criação de nota com `mapa_x`/`mapa_y`). **Ainda não foi aberto no Obsidian de verdade** — se o Tito já testou, pergunte o que ele viu (bugs, ajustes de estilo) antes de seguir para a etapa 2, porque isso pode mudar o que a etapa 2 precisa.
-
-**Para construir a etapa 2 ("Mesa"):** parta do arquivo real do plugin (`cofre/.obsidian/plugins/mapa-arton/main.js`) em vez de reescrever do zero — ele já tem a classe `Mapa`, os marcadores com `mapa_x`/`mapa_y` no frontmatter e o padrão de `ItemView`/`MarkdownRenderChild` a seguir. A etapa 2 pede: tela dos jogadores (janela separada, só o mestre controla), botão congelar, neblina por marcador com raio próprio, três estados (oculto/rumor/revelado), revelação dramática (dissolve + zoom), sons por lugar (arquivo ou link do YouTube). Detalhes de cada item estão nas "Decisões já tomadas" (itens 6–9, 13–17) no topo deste arquivo.
+## Testado como
+Simulação de Obsidian num Chromium headless (Playwright), cobrindo: matemática de zoom/pan/régua/criação de marcador (etapa 1); estados, neblina com raio certo, congelar/soltar, som (arquivo e YouTube), trilha (etapa 2); rolagem de dados dentro do intervalo esperado e mostrada na tela certa (etapa 4); ciclo completo de combate — abrir pelo marcador, trocar a tela dos jogadores sozinha, criar ficha a partir de nota (PV/defesa/ataques corretos), PV com clamp, condição, reordenar iniciativa preservando o turno, avançar rodada, rolar ataque, encerrar (etapa 3); rastro automático a partir das sessões e o link pro globo (etapa 5). **Ainda não foi aberto no Obsidian de verdade** — se o Tito testar e achar bug ou algo que pareça errado (o tamanho da grade, o raio da neblina do combate, o som sintetizado), é só pedir o ajuste numa conversa nova apontando pra esse arquivo.
