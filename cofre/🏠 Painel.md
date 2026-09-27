@@ -23,6 +23,12 @@ cssclasses:
 altura: 480
 ```
 
+## 🗺️ Mapa de Arton
+
+```mapa-arton
+altura: 480
+```
+
 > [!exemplo]- Este cofre veio com uma campanha de EXEMPLO
 > A campanha **A Fenda de Cristal Rubro** mostra como tudo se liga: sessão, NPCs, ameaças, segredos e caminhos até 7 passos à frente.
 > Quando for começar a sua, apague as notas que têm `exemplo: true` (ou peça ao Claude: *"apague as notas de exemplo do cofre"*). O cânone de Tormenta fica.

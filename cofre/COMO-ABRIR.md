@@ -51,6 +51,7 @@ O cofre vem com:
 
 ## Plugins que já vêm instalados
 - **Globo de Arton**: o globo 3D, feito sob medida para este cofre
+- **Mapa de Arton**: mapa de Arton com zoom, marcadores que criam notas, camadas, régua de viagem e galeria (etapa 1; mais etapas em `99 Sistema/Projeto - Mapa de Arton.md`)
 - **Dataview**: as tabelas e os relógios do painel
 - **Homepage**: abre o painel quando o Obsidian inicia
 - **New 3D Graph**: um segundo grafo 3D, de reserva (comando "Open 3d graph")

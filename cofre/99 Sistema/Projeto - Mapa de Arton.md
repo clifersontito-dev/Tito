@@ -1,7 +1,7 @@
 ---
 tipo: ideia
 projeto: mapa-de-arton
-status: desenho
+status: etapa 1 construída
 ---
 
 # Mapa de Arton no cofre: design em construção (só ideia, não construir ainda)
@@ -69,3 +69,15 @@ Arquitetura provável: um plugin próprio no cofre (como o `globo-arton`), com a
 
 ## Como pedir cada etapa
 Numa conversa nova (no Sonnet), diga: *"Leia `cofre/99 Sistema/Projeto - Mapa de Arton.md` e construa a etapa 1"*, e anexe a imagem do mapa de Arton.
+
+## Etapa 1: construída
+
+Plugin **`mapa-arton`** (`cofre/.obsidian/plugins/mapa-arton/`), no mesmo estilo do `globo-arton`, com o que a etapa 1 pedia:
+- Mapa (`99 Sistema/Anexos/mapa-arton.jpg`) com zoom (rodinha) e arrastar
+- **+ Marcador:** clicar no mapa → escolher Reino / Local / NPC e o nome → cria a nota no cofre (modelo certo, pasta certa) e grava `mapa_x`/`mapa_y` no frontmatter dela
+- **Camadas:** chips por tipo de marcador, para mostrar/esconder
+- **Régua:** calibra uma vez clicando dois pontos na régua de km impressa no mapa; depois disso, cada medição mostra km e dias a pé/cavalo/barco (velocidades ajustáveis pelo comando "Ajustar velocidades de viagem")
+- **Galeria:** nota com uma lista `galeria` de imagens no frontmatter mostra miniaturas no cartão do marcador; clique abre em tela cheia, com setas para navegar
+- Embutido no 🏠 Painel (bloco `mapa-arton`) e com tela cheia própria (ícone 🗺️ na barra lateral)
+
+Etapas 2 a 5 (tela dos jogadores, neblina, combate, dados, rastro automático) continuam como desenho, não construídas.
