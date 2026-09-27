@@ -1,0 +1,9 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "",
+  "accentColor": "#b57cff",
+  "enabledCssSnippets": [
+    "tito-arton"
+  ],
+  "baseFontSize": 16
+}

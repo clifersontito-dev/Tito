@@ -1,0 +1,136 @@
+/* Globo de Arton */
+.arton-globo-view { padding: 0 !important; overflow: hidden; }
+.arton-globo {
+  --ag-fundo: radial-gradient(ellipse at 50% 45%, #1a1440 0%, #0b0a1f 55%, #05050d 100%);
+  --ag-vidro: rgba(20, 16, 48, 0.62);
+  --ag-borda: rgba(180, 150, 255, 0.28);
+  --ag-texto: #ece8ff;
+  --ag-sub: #a9a1d6;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  background: var(--ag-fundo);
+  color: var(--ag-texto);
+  overflow: hidden;
+  font-family: var(--font-interface, system-ui, sans-serif);
+  user-select: none;
+}
+.arton-globo-embutido {
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(180, 150, 255, 0.25);
+  box-shadow: 0 0 40px rgba(140, 90, 255, 0.18), inset 0 0 60px rgba(0, 0, 0, 0.5);
+  margin: 0.5em 0 1.2em;
+}
+.arton-globo-canvas { position: absolute; inset: 0; }
+.arton-globo-canvas canvas { width: 100% !important; height: 100% !important; display: block; cursor: grab; touch-action: none; }
+.arton-globo-canvas canvas:active { cursor: grabbing; }
+
+.arton-globo-topo {
+  position: absolute; top: 12px; left: 12px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
+  pointer-events: none; z-index: 3;
+}
+.arton-globo-topo > * { pointer-events: auto; }
+.arton-globo-titulo {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--ag-vidro); border: 1px solid var(--ag-borda);
+  backdrop-filter: blur(8px);
+  font-weight: 600; letter-spacing: 0.04em; font-size: 13px;
+}
+.arton-globo-marca { color: #ff7ac6; text-shadow: 0 0 10px #ff7ac6; }
+.arton-globo-stats { color: var(--ag-sub); font-weight: 400; font-size: 12px; margin-left: 4px; }
+.arton-globo-acoes { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.arton-globo-busca {
+  background: var(--ag-vidro) !important; border: 1px solid var(--ag-borda) !important;
+  color: var(--ag-texto) !important; border-radius: 999px !important;
+  padding: 4px 12px !important; height: 30px; width: 170px; font-size: 12px;
+}
+
+.arton-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 12px !important; height: 30px;
+  border-radius: 999px !important;
+  background: var(--ag-vidro, rgba(20, 16, 48, 0.62)) !important;
+  border: 1px solid var(--ag-borda, rgba(180, 150, 255, 0.28)) !important;
+  color: var(--ag-texto, #ece8ff) !important;
+  font-size: 12px; letter-spacing: 0.03em; cursor: pointer;
+  box-shadow: none !important;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.arton-pill:hover { border-color: #c9a8ff !important; box-shadow: 0 0 14px rgba(190, 140, 255, 0.35) !important; }
+.arton-pill.is-ativo {
+  background: linear-gradient(135deg, rgba(150, 90, 255, 0.55), rgba(255, 80, 170, 0.45)) !important;
+  border-color: rgba(255, 170, 230, 0.6) !important;
+}
+
+.arton-globo-legenda {
+  position: absolute; left: 12px; bottom: 36px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 6px; z-index: 3; pointer-events: none;
+}
+.arton-globo-chip {
+  pointer-events: auto;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 2px 10px !important; height: 24px;
+  border-radius: 999px !important; font-size: 11px;
+  background: var(--ag-vidro) !important; border: 1px solid var(--ag-borda) !important;
+  color: var(--ag-texto) !important; box-shadow: none !important; cursor: pointer;
+}
+.arton-globo-chip.is-oculto { opacity: 0.35; }
+.arton-globo-bola { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+
+.arton-globo-dica {
+  position: absolute; bottom: 10px; left: 0; right: 0; text-align: center;
+  font-size: 11px; color: var(--ag-sub); opacity: 0.7; z-index: 2; pointer-events: none;
+}
+
+.arton-globo-rotulos { position: absolute; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
+.arton-globo-rotulo {
+  position: absolute; left: 0; top: 0; white-space: nowrap;
+  font-size: 11px; color: #f3efff; padding: 1px 7px; border-radius: 6px;
+  background: rgba(10, 8, 30, 0.55); border: 1px solid color-mix(in srgb, var(--cor, #fff) 40%, transparent);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+}
+.arton-globo-rotulo.is-forte {
+  font-size: 12.5px; font-weight: 600;
+  border-color: var(--cor, #fff);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--cor, #fff) 55%, transparent);
+}
+
+.arton-globo-card {
+  position: absolute; top: 56px; right: 12px; width: 260px; max-height: calc(100% - 110px);
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 14px; border-radius: 16px; z-index: 4;
+  background: rgba(16, 12, 40, 0.8); border: 1px solid var(--ag-borda);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45), 0 0 30px rgba(150, 100, 255, 0.15);
+}
+.is-compacto .arton-globo-card { width: 220px; top: 52px; }
+.arton-globo-card-cab { display: flex; justify-content: space-between; align-items: center; }
+.arton-globo-tipo { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; border: 1px solid; border-radius: 999px; padding: 1px 8px; }
+.arton-globo-fechar { background: none !important; border: none !important; box-shadow: none !important; color: var(--ag-sub) !important; font-size: 18px; padding: 0 4px !important; cursor: pointer; }
+.arton-globo-card-nome { font-size: 17px; font-weight: 700; line-height: 1.25; }
+.arton-globo-card-bts { display: flex; gap: 6px; flex-wrap: wrap; }
+.arton-globo-card-sub { font-size: 11px; color: var(--ag-sub); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px; }
+.arton-globo-card-lista { overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
+.arton-globo-card-item {
+  display: flex !important; align-items: center; gap: 8px; justify-content: flex-start !important;
+  background: none !important; border: none !important; box-shadow: none !important;
+  color: var(--ag-texto) !important; font-size: 12.5px; padding: 3px 6px !important; height: auto !important;
+  border-radius: 8px !important; cursor: pointer; text-align: left;
+}
+.arton-globo-card-item:hover { background: rgba(160, 120, 255, 0.18) !important; }
+
+.arton-criar { display: flex; flex-wrap: wrap; gap: 6px; margin: 0.4em 0 1em; }
+.arton-criar-bt { font-weight: 500; }
+.arton-modal-input { width: 100%; margin: 6px 0 12px; }
+
+@media (max-width: 600px) {
+  .arton-globo-card { left: 12px; right: 12px; width: auto; top: auto; bottom: 70px; max-height: 45%; }
+  .arton-globo-busca { width: 120px; }
+}
+
+/* No painel o globo fica limpo; os filtros aparecem na tela cheia */
+.is-compacto .arton-globo-legenda { display: none; }
