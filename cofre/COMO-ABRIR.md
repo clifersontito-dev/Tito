@@ -3,6 +3,9 @@
 Leva uns 5 minutos, e só na primeira vez.
 
 ## 1. Baixar
+**Jeito mais fácil:** baixe o arquivo **`Arton-do-Tito.zip`** que o Claude mandou no chat, descompacte e pule para o passo 2.
+
+**Pelo GitHub:**
 1. Abra no navegador: **github.com/clifersontito-dev/Tito**
 2. Troque para a branch `claude/obsidian-capabilities-688e5b` (botão com o nome da branch, no canto superior esquerdo).
 3. Clique em **Code → Download ZIP** e descompacte.
@@ -32,7 +35,7 @@ Se o painel aparecer com blocos de código em vez de gráficos, feche e abra o O
 **A regra que faz tudo funcionar:** sempre que escrever o nome de um NPC, lugar ou deus, coloque entre `[[ ]]`. É isso que cria as linhas do globo.
 
 ## 4. Deixar a IA registrar as sessões (recomendado)
-1. No app do Claude, vá em **Configurações → Capacidades → Skills → Enviar skill** e escolha o arquivo `mestre-arton.zip` (está na pasta `skills` do ZIP que você baixou).
+1. No app do Claude, vá em **Configurações → Capacidades → Skills → Enviar skill** e escolha o arquivo `mestre-arton.zip` (vem junto no ZIP que você baixou).
 2. No **Cowork**, libere a pasta do cofre.
 3. Depois de cada sessão, diga ao Cowork:
    - **"registra a sessão de hoje no cofre"**, e cole ou dite o que aconteceu
