@@ -1,0 +1,146 @@
+/* Mapa de Arton */
+.arton-mapa-view { padding: 0 !important; overflow: hidden; }
+.arton-mapa {
+  --ag-vidro: rgba(20, 16, 48, 0.62);
+  --ag-borda: rgba(180, 150, 255, 0.28);
+  --ag-texto: #ece8ff;
+  --ag-sub: #a9a1d6;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  background: radial-gradient(ellipse at 50% 45%, #1a1440 0%, #0b0a1f 55%, #05050d 100%);
+  color: var(--ag-texto);
+  overflow: hidden;
+  font-family: var(--font-interface, system-ui, sans-serif);
+  user-select: none;
+}
+.arton-mapa-embutido {
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(180, 150, 255, 0.25);
+  box-shadow: 0 0 40px rgba(140, 90, 255, 0.18), inset 0 0 60px rgba(0, 0, 0, 0.5);
+  margin: 0.5em 0 1.2em;
+}
+
+.arton-mapa-viewport { position: absolute; inset: 0; overflow: hidden; cursor: grab; touch-action: none; }
+.arton-mapa-viewport:active { cursor: grabbing; }
+.arton-mapa-plano { position: absolute; top: 0; left: 0; transform-origin: 0 0; }
+.arton-mapa-img { display: block; width: 100%; height: 100%; user-select: none; -webkit-user-drag: none; pointer-events: none; }
+.arton-mapa-erro { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2em; color: var(--ag-sub); }
+
+.arton-mapa-marcadores { position: absolute; inset: 0; pointer-events: none; }
+.arton-mapa-pino {
+  position: absolute; transform: translate(-50%, -100%);
+  pointer-events: auto; cursor: pointer;
+  background: none !important; border: none !important; box-shadow: none !important; padding: 0 !important;
+  font-size: 22px; line-height: 1; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.7));
+  transition: transform 0.1s;
+}
+.arton-mapa-pino:hover { transform: translate(-50%, -100%) scale(1.2); }
+
+.arton-mapa-regua-svg { position: absolute; top: 0; left: 0; overflow: visible; pointer-events: none; }
+.arton-mapa-regua-ponto { fill: #ff7ac6; stroke: #fff; stroke-width: 1.5; }
+.arton-mapa-regua-linha { stroke: #ff7ac6; stroke-width: 3; stroke-dasharray: 10 6; }
+
+.arton-mapa-topo {
+  position: absolute; top: 12px; left: 12px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between;
+  pointer-events: none; z-index: 3;
+}
+.arton-mapa-topo > * { pointer-events: auto; }
+.arton-mapa-titulo {
+  display: flex; align-items: center; gap: 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--ag-vidro); border: 1px solid var(--ag-borda);
+  backdrop-filter: blur(8px);
+  font-weight: 600; letter-spacing: 0.04em; font-size: 13px;
+}
+.arton-mapa-marca { text-shadow: 0 0 10px #ff7ac6; }
+.arton-mapa-stats { color: var(--ag-sub); font-weight: 400; font-size: 12px; margin-left: 4px; }
+.arton-mapa-acoes { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+
+.arton-mapa-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 12px !important; height: 30px;
+  border-radius: 999px !important;
+  background: var(--ag-vidro) !important;
+  border: 1px solid var(--ag-borda) !important;
+  color: var(--ag-texto) !important;
+  font-size: 12px; letter-spacing: 0.03em; cursor: pointer;
+  box-shadow: none !important;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.arton-mapa-pill:hover { border-color: #c9a8ff !important; box-shadow: 0 0 14px rgba(190, 140, 255, 0.35) !important; }
+.arton-mapa-pill.is-ativo {
+  background: linear-gradient(135deg, rgba(150, 90, 255, 0.55), rgba(255, 80, 170, 0.45)) !important;
+  border-color: rgba(255, 170, 230, 0.6) !important;
+}
+
+.arton-mapa-legenda {
+  position: absolute; left: 12px; bottom: 36px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 6px; z-index: 3; pointer-events: none;
+}
+.arton-mapa-chip {
+  pointer-events: auto;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 2px 10px !important; height: 24px;
+  border-radius: 999px !important; font-size: 11px;
+  background: var(--ag-vidro) !important; border: 1px solid var(--ag-borda) !important;
+  color: var(--ag-texto) !important; box-shadow: none !important; cursor: pointer;
+}
+.arton-mapa-chip.is-oculto { opacity: 0.35; }
+
+.arton-mapa-dica {
+  position: absolute; bottom: 10px; left: 0; right: 0; text-align: center;
+  font-size: 11px; color: var(--ag-sub); opacity: 0.7; z-index: 2; pointer-events: none;
+}
+
+.arton-mapa-card {
+  position: absolute; top: 56px; right: 12px; width: 260px; max-height: calc(100% - 110px);
+  overflow-y: auto;
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 14px; border-radius: 16px; z-index: 4;
+  background: rgba(16, 12, 40, 0.85); border: 1px solid var(--ag-borda);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45), 0 0 30px rgba(150, 100, 255, 0.15);
+}
+.is-compacto .arton-mapa-card { width: 220px; top: 52px; }
+.arton-mapa-card-cab { display: flex; justify-content: space-between; align-items: center; }
+.arton-mapa-tipo { font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ag-sub); }
+.arton-mapa-fechar { background: none !important; border: none !important; box-shadow: none !important; color: var(--ag-sub) !important; font-size: 18px; padding: 0 4px !important; cursor: pointer; }
+.arton-mapa-card-nome { font-size: 17px; font-weight: 700; line-height: 1.25; }
+.arton-mapa-card-bts { display: flex; gap: 6px; flex-wrap: wrap; }
+.arton-mapa-regua-lista { display: flex; flex-direction: column; gap: 2px; font-size: 12.5px; }
+
+.arton-mapa-galeria { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.arton-mapa-galeria-item { width: 64px; height: 64px; object-fit: cover; border-radius: 8px; cursor: pointer; border: 1px solid var(--ag-borda); }
+.arton-mapa-galeria-item:hover { border-color: #c9a8ff; }
+
+.arton-mapa-modal-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+
+.arton-mapa-lightbox {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(5, 4, 15, 0.92);
+  display: flex; align-items: center; justify-content: center;
+}
+.arton-mapa-lightbox img { max-width: 92vw; max-height: 92vh; border-radius: 10px; box-shadow: 0 0 60px rgba(150, 100, 255, 0.3); }
+.arton-mapa-lightbox-fechar {
+  position: absolute; top: 16px; right: 20px; background: none !important; border: none !important;
+  color: #fff !important; font-size: 32px; cursor: pointer; box-shadow: none !important;
+}
+.arton-mapa-lightbox-nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(20, 16, 48, 0.6) !important; border: 1px solid rgba(180, 150, 255, 0.28) !important;
+  color: #fff !important; font-size: 28px; width: 44px; height: 44px; border-radius: 50% !important;
+  cursor: pointer; box-shadow: none !important;
+}
+.arton-mapa-lightbox-nav.is-ant { left: 16px; }
+.arton-mapa-lightbox-nav.is-prox { right: 16px; }
+
+@media (max-width: 600px) {
+  .arton-mapa-card { left: 12px; right: 12px; width: auto; top: auto; bottom: 70px; max-height: 45%; }
+}
+
+/* No painel o mapa fica limpo; as camadas aparecem na tela cheia */
+.is-compacto .arton-mapa-legenda { display: none; }

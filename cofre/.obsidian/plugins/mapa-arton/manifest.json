@@ -1,0 +1,9 @@
+{
+  "id": "mapa-arton",
+  "name": "Mapa de Arton",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Mapa de Arton com zoom, marcadores clicáveis que criam notas no cofre, camadas por tipo, régua de viagem e galeria de imagens. Etapa 1 (básico) do projeto Mapa de Arton.",
+  "author": "Tito",
+  "isDesktopOnly": false
+}
