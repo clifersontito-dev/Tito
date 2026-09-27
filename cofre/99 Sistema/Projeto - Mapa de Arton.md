@@ -81,3 +81,17 @@ Plugin **`mapa-arton`** (`cofre/.obsidian/plugins/mapa-arton/`), no mesmo estilo
 - Embutido no 🏠 Painel (bloco `mapa-arton`) e com tela cheia própria (ícone 🗺️ na barra lateral)
 
 Etapas 2 a 5 (tela dos jogadores, neblina, combate, dados, rastro automático) continuam como desenho, não construídas.
+
+## Para o próximo chat continuar
+
+**Onde está o trabalho:** branch `claude/affectionate-cray-nz3yjm` (aberta a partir de `claude/obsidian-capabilities-688e5b`, commit `fe14ca2`, que é onde este arquivo de projeto vive). Ainda **não tem PR aberto** e **não foi mesclada** na `main`. Se o Tito já tiver pedido/aprovado um PR dessa branch, comece a próxima etapa a partir dela; senão, pergunte antes de assumir que já foi mesclada.
+
+**O que já existe (etapa 1):**
+- Plugin `cofre/.obsidian/plugins/mapa-arton/` (`main.js`, `manifest.json`, `styles.css`) — ver a seção "Etapa 1: construída" acima para a lista de funções.
+- Imagem do mapa em `cofre/99 Sistema/Anexos/mapa-arton.jpg`.
+- Registrado em `cofre/.obsidian/community-plugins.json` e embutido no `🏠 Painel.md`.
+- Dados de calibração da régua e velocidades de viagem ficam em `cofre/.obsidian/plugins/mapa-arton/data.json` (criado pelo próprio Obsidian na primeira vez que o Tito usar a régua — não existe ainda no repositório).
+
+**Testado como:** simulação de Obsidian num Chromium headless (matemática de zoom/pan, calibração e medição da régua, criação de nota com `mapa_x`/`mapa_y`). **Ainda não foi aberto no Obsidian de verdade** — se o Tito já testou, pergunte o que ele viu (bugs, ajustes de estilo) antes de seguir para a etapa 2, porque isso pode mudar o que a etapa 2 precisa.
+
+**Para construir a etapa 2 ("Mesa"):** parta do arquivo real do plugin (`cofre/.obsidian/plugins/mapa-arton/main.js`) em vez de reescrever do zero — ele já tem a classe `Mapa`, os marcadores com `mapa_x`/`mapa_y` no frontmatter e o padrão de `ItemView`/`MarkdownRenderChild` a seguir. A etapa 2 pede: tela dos jogadores (janela separada, só o mestre controla), botão congelar, neblina por marcador com raio próprio, três estados (oculto/rumor/revelado), revelação dramática (dissolve + zoom), sons por lugar (arquivo ou link do YouTube). Detalhes de cada item estão nas "Decisões já tomadas" (itens 6–9, 13–17) no topo deste arquivo.
