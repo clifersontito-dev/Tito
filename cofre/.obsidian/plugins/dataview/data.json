@@ -1,0 +1,10 @@
+{
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
+  "prettyRenderInlineFields": true,
+  "renderNullAs": "—",
+  "taskCompletionTracking": false,
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "warnOnEmptyResult": false
+}

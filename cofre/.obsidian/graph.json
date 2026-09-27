@@ -1,0 +1,135 @@
+{
+  "collapse-filter": true,
+  "search": "-path:\"99 Sistema\" -file:CLAUDE -file:COMO-ABRIR",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"02 Mundo/Deuses\"",
+      "color": {
+        "a": 1,
+        "rgb": 16762967
+      }
+    },
+    {
+      "query": "path:\"02 Mundo/Raças\"",
+      "color": {
+        "a": 1,
+        "rgb": 16752315
+      }
+    },
+    {
+      "query": "path:\"02 Mundo/Reinos e Regiões\"",
+      "color": {
+        "a": 1,
+        "rgb": 13073919
+      }
+    },
+    {
+      "query": "path:\"02 Mundo/Locais\"",
+      "color": {
+        "a": 1,
+        "rgb": 10316799
+      }
+    },
+    {
+      "query": "path:\"02 Mundo/Facções\"",
+      "color": {
+        "a": 1,
+        "rgb": 16735631
+      }
+    },
+    {
+      "query": "path:\"02 Mundo/Eras e Eventos\"",
+      "color": {
+        "a": 1,
+        "rgb": 9419007
+      }
+    },
+    {
+      "query": "path:\"04 Bestiário\"",
+      "color": {
+        "a": 1,
+        "rgb": 16732120
+      }
+    },
+    {
+      "query": "path:\"05 Itens e Artefatos\"",
+      "color": {
+        "a": 1,
+        "rgb": 6220500
+      }
+    },
+    {
+      "query": "path:\"03 Personagens/NPCs\"",
+      "color": {
+        "a": 1,
+        "rgb": 8246268
+      }
+    },
+    {
+      "query": "path:\"03 Personagens/Jogadores\"",
+      "color": {
+        "a": 1,
+        "rgb": 16639626
+      }
+    },
+    {
+      "query": "path:\"01 Campanha/Arcos\"",
+      "color": {
+        "a": 1,
+        "rgb": 16755021
+      }
+    },
+    {
+      "query": "path:\"01 Campanha/Caminhos\"",
+      "color": {
+        "a": 1,
+        "rgb": 14723839
+      }
+    },
+    {
+      "query": "path:\"01 Campanha/Ameaças\"",
+      "color": {
+        "a": 1,
+        "rgb": 16726876
+      }
+    },
+    {
+      "query": "path:\"01 Campanha/Segredos e Pistas\"",
+      "color": {
+        "a": 1,
+        "rgb": 12120806
+      }
+    },
+    {
+      "query": "path:\"01 Campanha/Sessões\"",
+      "color": {
+        "a": 1,
+        "rgb": 16118783
+      }
+    },
+    {
+      "query": "path:\"00 Inbox\"",
+      "color": {
+        "a": 1,
+        "rgb": 16766629
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 0.8,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 180,
+  "scale": 0.6,
+  "close": false
+}

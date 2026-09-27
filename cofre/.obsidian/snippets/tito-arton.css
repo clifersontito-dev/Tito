@@ -1,0 +1,149 @@
+/* Arton do Tito: tema noite-arcana (azul-noite, roxo e rosa com brilho) */
+
+.theme-dark {
+  --background-primary: #0c0b1d;
+  --background-primary-alt: #110f27;
+  --background-secondary: #0f0d24;
+  --background-secondary-alt: #151234;
+  --background-modifier-border: rgba(170, 140, 255, 0.18);
+  --background-modifier-hover: rgba(170, 140, 255, 0.1);
+  --text-normal: #e9e5ff;
+  --text-muted: #a9a1d6;
+  --text-faint: #6f6898;
+  --text-accent: #d6a8ff;
+  --text-accent-hover: #ff9bd6;
+  --interactive-accent: #9b5cff;
+  --interactive-accent-hover: #b57cff;
+  --link-color: #d6a8ff;
+  --link-color-hover: #ff9bd6;
+  --link-unresolved-color: #8a7fb8;
+  --h1-color: #f4ecff;
+  --h2-color: #e6d4ff;
+  --h3-color: #d6c2ff;
+  --tag-color: #ff9bd6;
+  --tag-background: rgba(255, 110, 190, 0.12);
+  --graph-node: #c77dff;
+  --graph-line: rgba(170, 140, 255, 0.35);
+  --graph-node-focused: #ff7ac6;
+  --color-accent: #b57cff;
+}
+
+.theme-dark .workspace-leaf-content[data-type="markdown"] .view-content,
+.theme-dark .markdown-preview-view {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(120, 70, 255, 0.14), transparent 70%),
+    var(--background-primary);
+}
+
+/* Títulos com brilho de grimório */
+.theme-dark .markdown-rendered h1,
+.theme-dark .cm-header-1 {
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 18px rgba(190, 130, 255, 0.35);
+}
+.theme-dark .markdown-rendered h2 {
+  border-bottom: 1px solid rgba(170, 140, 255, 0.2);
+  padding-bottom: 0.25em;
+  margin-top: 1.6em;
+}
+.theme-dark .internal-link { text-decoration: none; }
+.theme-dark .internal-link:hover { text-shadow: 0 0 10px rgba(255, 140, 210, 0.5); }
+
+/* Callouts próprios */
+.callout[data-callout="canon"] { --callout-color: 255, 200, 87; --callout-icon: lucide-book-open; }
+.callout[data-callout="exemplo"] { --callout-color: 148, 163, 184; --callout-icon: lucide-flask-conical; }
+.callout[data-callout="segredo"] { --callout-color: 184, 242, 230; --callout-icon: lucide-key-round; }
+.callout[data-callout="gancho"] { --callout-color: 224, 170, 255; --callout-icon: lucide-anchor; }
+.callout[data-callout="ameaca"] { --callout-color: 255, 59, 92; --callout-icon: lucide-flame; }
+.callout { border-radius: 12px; }
+
+/* ---------- Painel ---------- */
+.arton-painel .markdown-preview-sizer,
+.arton-painel.markdown-source-view .cm-sizer { max-width: 1100px !important; }
+
+.arton-hero { text-align: center; margin: 0.4em 0 0.9em; }
+.arton-hero-sub { font-size: 11px; letter-spacing: 0.35em; color: #a99ddf; }
+.arton-hero-tit {
+  font-size: 2.4em; font-weight: 800; line-height: 1.1; margin-top: 0.15em;
+  background: linear-gradient(90deg, #d9b8ff, #ff8fcf 55%, #ffc857);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 18px rgba(200, 120, 255, 0.35));
+}
+
+.arton-pills { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 0 0 1em; }
+.arton-pills a.arton-pill,
+a.arton-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 14px; border-radius: 999px; font-size: 13px;
+  background: rgba(24, 18, 56, 0.7); border: 1px solid rgba(180, 150, 255, 0.28);
+  color: #ece8ff !important; text-decoration: none !important;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.arton-pills a.arton-pill:hover { border-color: #c9a8ff; box-shadow: 0 0 14px rgba(190, 140, 255, 0.4); }
+
+.arton-grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 0.6em 0 1em; }
+.arton-bloco {
+  padding: 12px 14px; border-radius: 14px;
+  background: linear-gradient(160deg, rgba(40, 28, 90, 0.55), rgba(16, 12, 40, 0.65));
+  border: 1px solid rgba(180, 150, 255, 0.2);
+}
+.arton-bloco-tit { font-weight: 700; font-size: 13px; letter-spacing: 0.05em; margin-bottom: 6px; color: #f0e8ff; }
+.arton-bloco-dica { font-size: 11px; color: var(--text-faint); margin: -2px 0 6px; }
+.arton-item { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0; font-size: 13.5px; border-bottom: 1px dashed rgba(170, 140, 255, 0.12); }
+.arton-item:last-child { border-bottom: none; }
+.arton-item p { margin: 0; }
+.arton-item-extra { color: var(--text-muted); font-size: 12px; white-space: nowrap; }
+.arton-vazio { color: var(--text-faint); font-size: 12.5px; font-style: italic; }
+
+/* Relógios */
+.arton-relogios { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin: 0.6em 0 1em; }
+.arton-relogio {
+  padding: 12px 14px; border-radius: 14px;
+  background: rgba(20, 14, 44, 0.7); border: 1px solid rgba(180, 150, 255, 0.2);
+}
+.arton-relogio.is-quente { border-color: rgba(255, 160, 80, 0.5); }
+.arton-relogio.is-critico { border-color: rgba(255, 59, 92, 0.7); box-shadow: 0 0 22px rgba(255, 59, 92, 0.22); }
+.arton-relogio-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.arton-relogio-cab p { margin: 0; }
+.arton-relogio-num { font-weight: 800; color: #ff8fb0; }
+.arton-relogio-barra { display: flex; gap: 4px; margin: 8px 0 6px; }
+.arton-seg { flex: 1; height: 10px; border-radius: 3px; background: rgba(170, 140, 255, 0.14); }
+.arton-seg.is-cheio { background: linear-gradient(90deg, #ff4f8a, #ff3b5c); box-shadow: 0 0 8px rgba(255, 70, 110, 0.6); }
+.arton-relogio-prox { font-size: 12px; color: var(--text-muted); }
+
+/* Caminhos */
+.arton-caminhos { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(170px, 1fr); gap: 10px; overflow-x: auto; padding: 4px 2px 10px; margin: 0.6em 0 1em; }
+.arton-coluna { display: flex; flex-direction: column; gap: 8px; min-width: 170px; }
+.arton-coluna-tit {
+  text-align: center; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+  color: #cbb8ff; padding: 4px 0; border-bottom: 1px solid rgba(180, 150, 255, 0.25);
+}
+.arton-cartao {
+  padding: 9px 10px; border-radius: 12px; font-size: 12.5px;
+  background: rgba(24, 18, 56, 0.75); border: 1px solid rgba(180, 150, 255, 0.2);
+  border-left: 3px solid #e0aaff;
+}
+.arton-cartao p { margin: 0; }
+.arton-cartao.is-ativo { border-left-color: #ff7ac6; box-shadow: 0 0 16px rgba(255, 110, 190, 0.2); }
+.arton-cartao.is-escolhido { border-left-color: #5eead4; }
+.arton-cartao.is-possivel { opacity: 0.88; }
+.arton-cartao-nome { font-weight: 700; margin-bottom: 3px; }
+.arton-cartao-gatilho { color: var(--text-muted); font-size: 11.5px; line-height: 1.35; }
+.arton-cartao-leva { color: #d6c2ff; font-size: 11px; margin-top: 5px; }
+.arton-cartao-status { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-faint); margin-top: 5px; }
+
+/* Última sessão */
+.arton-ultima { padding: 12px 14px; border-radius: 14px; background: rgba(20, 14, 44, 0.7); border: 1px solid rgba(180, 150, 255, 0.2); margin: 0.6em 0 1em; }
+.arton-ultima p { margin: 0; }
+.arton-ultima-resumo { margin: 6px 0; color: var(--text-normal); }
+.arton-ultima-chips { font-size: 12.5px; color: var(--text-muted); }
+
+/* Números */
+.arton-numeros { display: grid; grid-template-columns: repeat(auto-fit, minmax(105px, 1fr)); gap: 8px; margin: 0.6em 0 1em; }
+.arton-numero {
+  text-align: center; padding: 10px 6px; border-radius: 12px;
+  background: rgba(20, 14, 44, 0.7);
+  border: 1px solid color-mix(in srgb, var(--cor) 35%, transparent);
+}
+.arton-numero-v { font-size: 1.7em; font-weight: 800; color: var(--cor); text-shadow: 0 0 12px color-mix(in srgb, var(--cor) 60%, transparent); }
+.arton-numero-n { font-size: 11px; letter-spacing: 0.08em; color: var(--text-muted); }

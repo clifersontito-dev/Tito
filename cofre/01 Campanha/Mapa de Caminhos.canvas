@@ -1,0 +1,274 @@
+{
+ "nodes": [
+  {
+   "id": "sessao",
+   "type": "file",
+   "file": "01 Campanha/Sessões/Sessão 01 - Chegada a Pedra-Funda.md",
+   "x": -420,
+   "y": 260,
+   "width": 320,
+   "height": 200,
+   "color": "6"
+  },
+  {
+   "id": "A1",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A1 - Investigar o Mosteiro.md",
+   "x": 0,
+   "y": 0,
+   "width": 320,
+   "height": 200,
+   "color": "1"
+  },
+  {
+   "id": "A2",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A2 - Emboscada no mosteiro.md",
+   "x": 380,
+   "y": 0,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "A3",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A3 - O Fragmento na cripta.md",
+   "x": 760,
+   "y": 0,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "A4",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A4 - O Culto rouba o Fragmento.md",
+   "x": 1140,
+   "y": 0,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "A5",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A5 - Ritual na Ponte dos Enforcados.md",
+   "x": 1520,
+   "y": 0,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "A6",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A6 - A Fenda se abre.md",
+   "x": 1900,
+   "y": 0,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "A7",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/A7 - Fechar a Fenda.md",
+   "x": 2280,
+   "y": 0,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "B1",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/B1 - Seguir o Barão.md",
+   "x": 0,
+   "y": 260,
+   "width": 320,
+   "height": 200,
+   "color": "1"
+  },
+  {
+   "id": "B2",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/B2 - Cartas sszzaazitas.md",
+   "x": 380,
+   "y": 260,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "B3",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/B3 - Confrontar o Barão.md",
+   "x": 760,
+   "y": 260,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "B4",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/B4 - O Barão entrega o ritual.md",
+   "x": 1140,
+   "y": 260,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "C1",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/C1 - Escoltar a caravana.md",
+   "x": 0,
+   "y": 520,
+   "width": 320,
+   "height": 200,
+   "color": "1"
+  },
+  {
+   "id": "C2",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/C2 - Ataque na estrada.md",
+   "x": 380,
+   "y": 520,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "C3",
+   "type": "file",
+   "file": "01 Campanha/Caminhos/C3 - Grakk pede ajuda.md",
+   "x": 760,
+   "y": 520,
+   "width": 320,
+   "height": 200
+  },
+  {
+   "id": "legenda",
+   "type": "text",
+   "text": "## Mapa de Caminhos\nCada cartão é uma nota de **caminho**. Vermelho = opção aberta agora.\nArraste cartões e ligue setas à vontade: é só para você visualizar.\n\n_EXEMPLO: pode apagar junto com as notas de exemplo._",
+   "x": -420,
+   "y": -260,
+   "width": 420,
+   "height": 200,
+   "color": "6"
+  }
+ ],
+ "edges": [
+  {
+   "id": "A1-A2",
+   "fromNode": "A1",
+   "fromSide": "right",
+   "toNode": "A2",
+   "toSide": "left"
+  },
+  {
+   "id": "s-A1",
+   "fromNode": "sessao",
+   "fromSide": "right",
+   "toNode": "A1",
+   "toSide": "left"
+  },
+  {
+   "id": "A2-A3",
+   "fromNode": "A2",
+   "fromSide": "right",
+   "toNode": "A3",
+   "toSide": "left"
+  },
+  {
+   "id": "A3-A4",
+   "fromNode": "A3",
+   "fromSide": "right",
+   "toNode": "A4",
+   "toSide": "left"
+  },
+  {
+   "id": "A4-A5",
+   "fromNode": "A4",
+   "fromSide": "right",
+   "toNode": "A5",
+   "toSide": "left"
+  },
+  {
+   "id": "A5-A6",
+   "fromNode": "A5",
+   "fromSide": "right",
+   "toNode": "A6",
+   "toSide": "left"
+  },
+  {
+   "id": "A5-A7",
+   "fromNode": "A5",
+   "fromSide": "right",
+   "toNode": "A7",
+   "toSide": "left"
+  },
+  {
+   "id": "A6-A7",
+   "fromNode": "A6",
+   "fromSide": "right",
+   "toNode": "A7",
+   "toSide": "left"
+  },
+  {
+   "id": "B1-B2",
+   "fromNode": "B1",
+   "fromSide": "right",
+   "toNode": "B2",
+   "toSide": "left"
+  },
+  {
+   "id": "s-B1",
+   "fromNode": "sessao",
+   "fromSide": "right",
+   "toNode": "B1",
+   "toSide": "left"
+  },
+  {
+   "id": "B2-B3",
+   "fromNode": "B2",
+   "fromSide": "right",
+   "toNode": "B3",
+   "toSide": "left"
+  },
+  {
+   "id": "B3-B4",
+   "fromNode": "B3",
+   "fromSide": "right",
+   "toNode": "B4",
+   "toSide": "left"
+  },
+  {
+   "id": "B4-A5",
+   "fromNode": "B4",
+   "fromSide": "right",
+   "toNode": "A5",
+   "toSide": "left"
+  },
+  {
+   "id": "C1-C2",
+   "fromNode": "C1",
+   "fromSide": "right",
+   "toNode": "C2",
+   "toSide": "left"
+  },
+  {
+   "id": "s-C1",
+   "fromNode": "sessao",
+   "fromSide": "right",
+   "toNode": "C1",
+   "toSide": "left"
+  },
+  {
+   "id": "C2-C3",
+   "fromNode": "C2",
+   "fromSide": "right",
+   "toNode": "C3",
+   "toSide": "left"
+  },
+  {
+   "id": "C3-A6",
+   "fromNode": "C3",
+   "fromSide": "right",
+   "toNode": "A6",
+   "toSide": "left"
+  }
+ ]
+}

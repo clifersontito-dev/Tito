@@ -1,0 +1,9 @@
+{
+  "id": "globo-arton",
+  "name": "Globo de Arton",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Mostra as notas do cofre num globo 3D girável, com as ligações entre elas, e cria notas novas a partir dos modelos.",
+  "author": "Tito",
+  "isDesktopOnly": false
+}

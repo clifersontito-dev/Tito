@@ -1,0 +1,85 @@
+{
+  "useThemeColors": false,
+  "backgroundColor": "#0b0a1f",
+  "colorNode": "#c77dff",
+  "colorLink": "#6d5bb5",
+  "colorHighlight": "#ff7ac6",
+  "nodeSize": 1.6,
+  "linkThickness": 0.8,
+  "showNodeLabels": true,
+  "showLabelsOnHoverOnly": false,
+  "labelTextColorDark": "#f3efff",
+  "labelBackgroundColor": "#15123a",
+  "labelBackgroundOpacity": 0.4,
+  "hideOrphans": false,
+  "showTags": false,
+  "showAttachments": false,
+  "filters": [],
+  "searchQuery": "",
+  "groups": [
+    {
+      "query": "path:02 Mundo/Deuses",
+      "color": "#ffc857"
+    },
+    {
+      "query": "path:02 Mundo/Raças",
+      "color": "#ff9ebb"
+    },
+    {
+      "query": "path:02 Mundo/Reinos e Regiões",
+      "color": "#c77dff"
+    },
+    {
+      "query": "path:02 Mundo/Locais",
+      "color": "#9d6bff"
+    },
+    {
+      "query": "path:02 Mundo/Facções",
+      "color": "#ff5d8f"
+    },
+    {
+      "query": "path:02 Mundo/Eras e Eventos",
+      "color": "#8fb8ff"
+    },
+    {
+      "query": "path:04 Bestiário",
+      "color": "#ff4fd8"
+    },
+    {
+      "query": "path:05 Itens e Artefatos",
+      "color": "#5eead4"
+    },
+    {
+      "query": "path:03 Personagens/NPCs",
+      "color": "#7dd3fc"
+    },
+    {
+      "query": "path:03 Personagens/Jogadores",
+      "color": "#fde68a"
+    },
+    {
+      "query": "path:01 Campanha/Arcos",
+      "color": "#ffa94d"
+    },
+    {
+      "query": "path:01 Campanha/Caminhos",
+      "color": "#e0aaff"
+    },
+    {
+      "query": "path:01 Campanha/Ameaças",
+      "color": "#ff3b5c"
+    },
+    {
+      "query": "path:01 Campanha/Segredos e Pistas",
+      "color": "#b8f2e6"
+    },
+    {
+      "query": "path:01 Campanha/Sessões",
+      "color": "#f5f3ff"
+    },
+    {
+      "query": "path:00 Inbox",
+      "color": "#ffd6a5"
+    }
+  ]
+}
