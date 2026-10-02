@@ -1018,23 +1018,27 @@ function mostrarRolagemEm(root, evento) {
   const overlay = el('div', 'arton-dado-overlay', root);
   const caixa = el('div', 'arton-dado-caixa', overlay);
   el('div', 'arton-dado-rotulo', caixa, evento.rotulo || evento.expr);
-  const cubo = el('div', 'arton-dado-cubo', caixa);
-  const numero = el('div', 'arton-dado-numero', cubo, '?');
+  const cubo = el('div', 'arton-dado-cubo3d', caixa);
+  const numeros = ['frente', 'tras', 'direita', 'esquerda', 'cima', 'baixo'].map((lado) => {
+    const face = el('div', 'arton-dado-face is-' + lado, cubo);
+    return el('span', 'arton-dado-numero', face, '?');
+  });
   tocarEfeito('rolando');
   let tique = 0;
   const giro = setInterval(() => {
-    numero.textContent = String(1 + Math.floor(Math.random() * Math.max(20, evento.lados)));
+    const v = String(1 + Math.floor(Math.random() * Math.max(20, evento.lados)));
+    for (const n of numeros) n.textContent = v;
     tique++;
-    if (tique > 10) {
+    if (tique > 12) {
       clearInterval(giro);
       cubo.classList.add('is-parado');
-      numero.textContent = String(evento.total);
+      for (const n of numeros) n.textContent = String(evento.total);
       caixa.classList.add(evento.critico ? 'is-critico' : evento.falha ? 'is-falha' : 'is-normal');
       el('div', 'arton-dado-detalhe', caixa, `${evento.expr}: [${evento.rolagens.join(', ')}]${evento.mod ? (evento.mod > 0 ? '+' : '') + evento.mod : ''}`);
       tocarEfeito(evento.critico ? 'critico' : evento.falha ? 'falha' : 'impacto');
     }
   }, 90);
-  setTimeout(() => overlay.remove(), 3400);
+  setTimeout(() => overlay.remove(), 3600);
 }
 
 class ModalDados extends obsidian.Modal {
