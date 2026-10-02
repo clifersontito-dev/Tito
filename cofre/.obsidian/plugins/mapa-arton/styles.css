@@ -196,10 +196,25 @@
   font-family: var(--font-interface, system-ui, sans-serif);
 }
 .arton-dado-rotulo { font-size: 13px; letter-spacing: 0.05em; color: #a9a1d6; margin-bottom: 6px; }
-.arton-dado-numero { font-size: 4.2em; font-weight: 800; line-height: 1; }
+.arton-dado-cubo {
+  width: 84px; height: 84px; margin: 0 auto; border-radius: 16px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(145deg, rgba(150, 90, 255, 0.35), rgba(255, 110, 190, 0.25));
+  border: 2px solid rgba(220, 200, 255, 0.6);
+  box-shadow: 0 0 20px rgba(150, 100, 255, 0.35), inset 0 0 14px rgba(255, 255, 255, 0.15);
+  animation: arton-dado-girar 0.5s linear infinite;
+}
+.arton-dado-cubo.is-parado { animation: none; transform: rotateX(0) rotateY(0) rotateZ(0); }
+@keyframes arton-dado-girar {
+  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: rotateX(360deg) rotateY(290deg) rotateZ(180deg); }
+}
+.arton-dado-numero { font-size: 2.6em; font-weight: 800; line-height: 1; }
+.arton-dado-caixa.is-critico .arton-dado-cubo { border-color: #ffe066; box-shadow: 0 0 30px #ffd23f; }
 .arton-dado-caixa.is-critico .arton-dado-numero { color: #ffe066; text-shadow: 0 0 30px #ffd23f; }
+.arton-dado-caixa.is-falha .arton-dado-cubo { border-color: #ff5d6c; box-shadow: 0 0 24px #ff3b5c; }
 .arton-dado-caixa.is-falha .arton-dado-numero { color: #ff5d6c; text-shadow: 0 0 24px #ff3b5c; }
-.arton-dado-detalhe { font-size: 12px; color: #a9a1d6; margin-top: 6px; }
+.arton-dado-detalhe { font-size: 12px; color: #a9a1d6; margin-top: 8px; }
 
 .arton-mapa-lista-fichas { display: flex; flex-direction: column; gap: 4px; max-height: 220px; overflow-y: auto; margin: 6px 0; }
 

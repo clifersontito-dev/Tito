@@ -1018,7 +1018,8 @@ function mostrarRolagemEm(root, evento) {
   const overlay = el('div', 'arton-dado-overlay', root);
   const caixa = el('div', 'arton-dado-caixa', overlay);
   el('div', 'arton-dado-rotulo', caixa, evento.rotulo || evento.expr);
-  const numero = el('div', 'arton-dado-numero', caixa, '?');
+  const cubo = el('div', 'arton-dado-cubo', caixa);
+  const numero = el('div', 'arton-dado-numero', cubo, '?');
   tocarEfeito('rolando');
   let tique = 0;
   const giro = setInterval(() => {
@@ -1026,6 +1027,7 @@ function mostrarRolagemEm(root, evento) {
     tique++;
     if (tique > 10) {
       clearInterval(giro);
+      cubo.classList.add('is-parado');
       numero.textContent = String(evento.total);
       caixa.classList.add(evento.critico ? 'is-critico' : evento.falha ? 'is-falha' : 'is-normal');
       el('div', 'arton-dado-detalhe', caixa, `${evento.expr}: [${evento.rolagens.join(', ')}]${evento.mod ? (evento.mod > 0 ? '+' : '') + evento.mod : ''}`);
@@ -1038,7 +1040,7 @@ function mostrarRolagemEm(root, evento) {
 class ModalDados extends obsidian.Modal {
   constructor(app, plugin) { super(app); this.plugin = plugin; }
   onOpen() {
-    this.titleEl.textContent = '🎲 Rolar dados (aparece na tela dos jogadores)';
+    this.titleEl.textContent = '🎲 Rolar dados (aparece em todas as telas abertas)';
     const c = this.contentEl;
     c.classList.add('arton-modal');
     const chips = el('div', 'arton-mapa-modal-chips', c);
@@ -1404,7 +1406,7 @@ module.exports = class MapaArtonPlugin extends obsidian.Plugin {
     this.addCommand({ id: 'abrir-mapa', name: 'Abrir o Mapa de Arton', callback: () => this.abrirMapa() });
     this.addCommand({ id: 'abrir-tela-jogadores', name: 'Abrir a tela dos jogadores do Mapa de Arton', callback: () => this.abrirTelaJogadores() });
     this.addCommand({ id: 'congelar-tela-jogadores', name: 'Congelar/soltar a tela dos jogadores', callback: () => this.congelarAlternar() });
-    this.addCommand({ id: 'rolar-dados', name: 'Rolar dados (mostra na tela dos jogadores)', callback: () => new ModalDados(this.app, this).open() });
+    this.addCommand({ id: 'rolar-dados', name: 'Rolar dados', callback: () => new ModalDados(this.app, this).open() });
     this.addCommand({ id: 'atualizar-rastro-sessoes', name: 'Atualizar o rastro do grupo pelas sessões', callback: () => this.atualizarRastroDasSessoes() });
     this.addCommand({
       id: 'ajustar-velocidades',
@@ -1706,10 +1708,12 @@ module.exports = class MapaArtonPlugin extends obsidian.Plugin {
     return r;
   }
 
+  // A rolagem aparece em toda tela aberta — a do mestre e a dos jogadores, no
+  // mapa-múndi e no combate — não só na dos jogadores.
   _telasComDados() {
     const alvos = [];
-    for (const m of this.mapas) if (!m.mestre) alvos.push(m);
-    for (const c of this.combates) if (!c.mestre) alvos.push(c);
+    for (const m of this.mapas) alvos.push(m);
+    for (const c of this.combates) alvos.push(c);
     return alvos;
   }
 
