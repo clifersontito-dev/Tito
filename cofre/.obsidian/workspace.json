@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "fcb084838e9be733",
+    "type": "split",
+    "children": [
+      {
+        "id": "1166958821f41db5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e44d22059576534",
+            "type": "leaf",
+            "state": {
+              "type": "mapa-arton-view",
+              "state": {},
+              "icon": "map",
+              "title": "Mapa de Arton"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84b680ec05d292dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "24609e76653678d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f525d316c84d7d82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "ac7602382d21e24a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "a528fd8934dc4475",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec968770bb08030f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b19298437c9853d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48c59428920fd85b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "f858e553f99b0022",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "ca15a05d34712dc9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3783cde4637dd421",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "454b5dbeceafde1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "homepage:Open homepage": false,
+      "new-3d-graph:Open 3d graph": false,
+      "globo-arton:Abrir o Globo de Arton": false,
+      "mapa-arton:Abrir o Mapa de Arton": false
+    }
+  },
+  "floating": {
+    "id": "c4ce819504d5c9fd",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e54af745e16eac89",
+        "type": "window",
+        "children": [
+          {
+            "id": "8138430c1d6d9e6d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e8c40161c6a295cc",
+                "type": "leaf",
+                "state": {
+                  "type": "mapa-arton-jogadores-view",
+                  "state": {},
+                  "icon": "tv",
+                  "title": "Mapa de Arton — tela dos jogadores"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1377,
+        "y": 145,
+        "width": 1120,
+        "height": 760,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "e8c40161c6a295cc",
+  "lastOpenFiles": []
+}
