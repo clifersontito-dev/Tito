@@ -204,12 +204,23 @@
   box-shadow: 0 0 20px rgba(150, 100, 255, 0.35), inset 0 0 14px rgba(255, 255, 255, 0.15);
   animation: arton-dado-girar 0.5s linear infinite;
 }
-.arton-dado-cubo.is-parado { animation: none; transform: rotateX(0) rotateY(0) rotateZ(0); }
+.arton-dado-cubo.is-parado { animation: none; transform: rotate(0deg) scale(1); }
 @keyframes arton-dado-girar {
-  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-  100% { transform: rotateX(360deg) rotateY(290deg) rotateZ(180deg); }
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(90deg) scale(1.1); }
+  50% { transform: rotate(180deg) scale(0.92); }
+  75% { transform: rotate(270deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
 }
-.arton-dado-numero { font-size: 2.6em; font-weight: 800; line-height: 1; }
+.arton-dado-numero {
+  display: inline-block; font-size: 2.6em; font-weight: 800; line-height: 1;
+  animation: arton-dado-girar-contra 0.5s linear infinite;
+}
+.arton-dado-cubo.is-parado .arton-dado-numero { animation: none; transform: rotate(0deg); }
+@keyframes arton-dado-girar-contra {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
 .arton-dado-caixa.is-critico .arton-dado-cubo { border-color: #ffe066; box-shadow: 0 0 30px #ffd23f; }
 .arton-dado-caixa.is-critico .arton-dado-numero { color: #ffe066; text-shadow: 0 0 30px #ffd23f; }
 .arton-dado-caixa.is-falha .arton-dado-cubo { border-color: #ff5d6c; box-shadow: 0 0 24px #ff3b5c; }
