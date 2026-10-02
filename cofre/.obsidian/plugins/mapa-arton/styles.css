@@ -225,14 +225,6 @@
 .arton-dado-face.is-cima { transform: rotateX(90deg) translateZ(33px); }
 .arton-dado-face.is-baixo { transform: rotateX(-90deg) translateZ(33px); }
 .arton-dado-caixa.is-critico .arton-dado-face { border-color: #ffe066; box-shadow: 0 0 20px #ffd23f, inset 0 0 14px rgba(255, 255, 255, 0.15); color: #ffe066; }
-
-/* Silhueta por número de lados (não é o poliedro real, só um lembrete visual de
-   que nem todo dado é um cubo: d4 ~ triângulo, d8 ~ losango, d10/d12 ~ pentágono,
-   d20/d100 ~ redondo). O d6 (padrão) fica com o quadrado normal, sem recorte. */
-.is-forma-tri .arton-dado-face { clip-path: polygon(50% 0%, 100% 100%, 0% 100%); border-radius: 0; }
-.is-forma-octo .arton-dado-face { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); border-radius: 0; }
-.is-forma-penta .arton-dado-face { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); border-radius: 0; }
-.is-forma-redondo .arton-dado-face { border-radius: 50%; }
 .arton-dado-caixa.is-falha .arton-dado-face { border-color: #ff5d6c; box-shadow: 0 0 16px #ff3b5c, inset 0 0 14px rgba(255, 255, 255, 0.15); color: #ff5d6c; }
 .arton-dado-detalhe { font-size: 12px; color: #a9a1d6; margin-top: 8px; }
 

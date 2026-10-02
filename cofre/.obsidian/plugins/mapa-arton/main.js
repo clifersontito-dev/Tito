@@ -1012,24 +1012,15 @@ class Mapa {
   }
 }
 
-// A silhueta do dado muda com o número de lados — não é um poliedro geometricamente
-// certo (um d20 de verdade tem 20 faces triangulares, não dá pra modelar isso só em
-// CSS com um ganho que valha a pena), mas pelo menos um d4 não fica com cara de d6.
-function classeFormaDado(lados) {
-  if (lados <= 4) return 'is-forma-tri';
-  if (lados <= 6) return 'is-forma-quad';
-  if (lados <= 8) return 'is-forma-octo';
-  if (lados <= 12) return 'is-forma-penta';
-  return 'is-forma-redondo';
-}
-
 // Rolagem de dados animada + som sintetizado, usada tanto no mapa-múndi quanto no
-// combate (por isso é uma função à parte, não um método de uma classe só).
+// combate (por isso é uma função à parte, não um método de uma classe só). O cubo
+// é sempre a mesma forma (um d4/d8/d20 de verdade não cabe num cubo de 6 faces sem
+// ficar com cara de remendo); o que muda por tipo é só o rótulo ("1d4" etc) em cima.
 function mostrarRolagemEm(root, evento) {
   const overlay = el('div', 'arton-dado-overlay', root);
   const caixa = el('div', 'arton-dado-caixa', overlay);
   el('div', 'arton-dado-rotulo', caixa, evento.rotulo || evento.expr);
-  const cubo = el('div', 'arton-dado-cubo3d ' + classeFormaDado(evento.lados), caixa);
+  const cubo = el('div', 'arton-dado-cubo3d', caixa);
   const numeros = ['frente', 'tras', 'direita', 'esquerda', 'cima', 'baixo'].map((lado) => {
     const face = el('div', 'arton-dado-face is-' + lado, cubo);
     return el('span', 'arton-dado-numero', face, '?');
@@ -1037,7 +1028,7 @@ function mostrarRolagemEm(root, evento) {
   tocarEfeito('rolando');
   let tique = 0;
   const giro = setInterval(() => {
-    const v = String(1 + Math.floor(Math.random() * Math.max(20, evento.lados)));
+    const v = String(1 + Math.floor(Math.random() * evento.lados));
     for (const n of numeros) n.textContent = v;
     tique++;
     if (tique > 12) {
