@@ -1,0 +1,4 @@
+You are already a member of "Caça ao Preço Beleza", a free WhatsApp group for women with about 600 members that posts only beauty deals from Shopee with an affiliate link (buying through the link costs you nothing extra).
+The group posts beauty and skincare deals every day: micellar water, cleansing gel, vitamin C, niacinamide, hyaluronic acid, moisturizer, facial sunscreen, acne patches, makeup. Brands like Bioderma, L'Oréal, Garnier and Dermage appear, alongside cheaper brands.
+Every product has at least 30% real discount, costs up to R$ 300, and stores with bad reviews or suspected fakes are filtered out. The group also shares simple guides, like "skincare step by step: what each product does and when to use it".
+"Buys" means: in your first month in the group, you buy at least one product through a group link. The price questions are about a typical beauty product posted in the group.

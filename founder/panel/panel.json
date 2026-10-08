@@ -1,0 +1,95 @@
+{
+ "n": 20,
+ "seed": 799069,
+ "customer": {
+  "business": "Caça ao Preço Beleza (grupo de WhatsApp só de achados de beleza da Shopee, com link de afiliado)",
+  "target": "Brazilian women, CLT workers earning R$ 2,000 to R$ 3,000 a month, who are already members of a Shopee beauty deals WhatsApp group (income below is per year in R$)",
+  "where": "Brasil, cidades médias e grandes",
+  "age": [
+   20,
+   45
+  ],
+  "segments": [
+   {
+    "name": "Mãe que trabalha fora",
+    "share": 0.35,
+    "income": [
+     26000,
+     39000
+    ]
+   },
+   {
+    "name": "Jovem de 20 a 28 anos começando a cuidar da pele",
+    "share": 0.3,
+    "income": [
+     26000,
+     34000
+    ]
+   },
+   {
+    "name": "Mulher de 30 a 45 anos que já tem rotina de skincare",
+    "share": 0.2,
+    "income": [
+     30000,
+     39000
+    ]
+   },
+   {
+    "name": "Compra para si e para presentear mãe, irmã e amigas",
+    "share": 0.15,
+    "income": [
+     26000,
+     36000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Compra por impulso",
+    "share": 0.2,
+    "how": "Vê uma oferta boa no celular e compra na hora, sem pesquisar muito."
+   },
+   {
+    "name": "Caçadora de desconto",
+    "share": 0.2,
+    "how": "Só compra com cupom ou promoção e compara com farmácia e outros sites."
+   },
+   {
+    "name": "Silenciou o grupo",
+    "share": 0.2,
+    "how": "Entrou num grupo de ofertas, silenciou e só abre de vez em quando."
+   },
+   {
+    "name": "Segue influenciadora de skincare",
+    "share": 0.15,
+    "how": "Compra o que a influenciadora que ela confia indicou e pesquisa o ativo antes."
+   },
+   {
+    "name": "Compra só o necessário",
+    "share": 0.15,
+    "how": "Orçamento apertado, repõe só o que acabou (protetor, sabonete, hidratante)."
+   },
+   {
+    "name": "Fiel à farmácia ou à loja de marca",
+    "share": 0.1,
+    "how": "Compra beleza na farmácia ou na loja da marca para ter certeza de que é original."
+   }
+  ],
+  "objections": [
+   "Será que é original? Cosmético falsificado pode estragar minha pele",
+   "O salário já acabou antes do fim do mês",
+   "Não sei se esse produto serve para o meu tipo de pele",
+   "Esse desconto é real ou aumentaram o preço antes?",
+   "Na farmácia eu acho parecido e levo na hora",
+   "Muita mensagem no grupo, eu nem leio",
+   "Já tenho produto em casa, não preciso agora"
+  ],
+  "habits": [
+   "you check WhatsApp on the bus to and from work",
+   "you get paid on the 5th and money is tight after the 20th",
+   "you watch skincare and makeup videos on TikTok and Instagram at night",
+   "you have the Shopee app installed and bought there before"
+  ]
+ },
+ "pitch": "You are already a member of \"Caça ao Preço Beleza\", a free WhatsApp group for women with about 600 members that posts only beauty deals from Shopee with an affiliate link (buying through the link costs you nothing extra).\nThe group posts beauty and skincare deals every day: micellar water, cleansing gel, vitamin C, niacinamide, hyaluronic acid, moisturizer, facial sunscreen, acne patches, makeup. Brands like Bioderma, L'Oréal, Garnier and Dermage appear, alongside cheaper brands.\nEvery product has at least 30% real discount, costs up to R$ 300, and stores with bad reviews or suspected fakes are filtered out. The group also shares simple guides, like \"skincare step by step: what each product does and when to use it\".\n\"Buys\" means: in your first month in the group, you buy at least one product through a group link. The price questions are about a typical beauty product posted in the group."
+}

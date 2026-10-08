@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Noah",
+  "age": 34,
+  "segment": "Mãe que trabalha fora",
+  "income": 39000,
+  "behaviour": "Segue influenciadora de skincare",
+  "behaviour_how": "Compra o que a influenciadora que ela confia indicou e pesquisa o ativo antes.",
+  "objection": "Esse desconto é real ou aumentaram o preço antes?",
+  "habit": "you check WhatsApp on the bus to and from work"
+ },
+ {
+  "id": "P002",
+  "name": "Amara",
+  "age": 38,
+  "segment": "Mãe que trabalha fora",
+  "income": 34000,
+  "behaviour": "Segue influenciadora de skincare",
+  "behaviour_how": "Compra o que a influenciadora que ela confia indicou e pesquisa o ativo antes.",
+  "objection": "Na farmácia eu acho parecido e levo na hora",
+  "habit": "you get paid on the 5th and money is tight after the 20th"
+ },
+ {
+  "id": "P003",
+  "name": "Seth",
+  "age": 45,
+  "segment": "Jovem de 20 a 28 anos começando a cuidar da pele",
+  "income": 26000,
+  "behaviour": "Caçadora de desconto",
+  "behaviour_how": "Só compra com cupom ou promoção e compara com farmácia e outros sites.",
+  "objection": "O salário já acabou antes do fim do mês",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P004",
+  "name": "Anya",
+  "age": 23,
+  "segment": "Mãe que trabalha fora",
+  "income": 36000,
+  "behaviour": "Silenciou o grupo",
+  "behaviour_how": "Entrou num grupo de ofertas, silenciou e só abre de vez em quando.",
+  "objection": "Já tenho produto em casa, não preciso agora",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ },
+ {
+  "id": "P005",
+  "name": "Ada",
+  "age": 44,
+  "segment": "Mãe que trabalha fora",
+  "income": 32000,
+  "behaviour": "Compra por impulso",
+  "behaviour_how": "Vê uma oferta boa no celular e compra na hora, sem pesquisar muito.",
+  "objection": "Na farmácia eu acho parecido e levo na hora",
+  "habit": "you check WhatsApp on the bus to and from work"
+ },
+ {
+  "id": "P006",
+  "name": "Rosa",
+  "age": 26,
+  "segment": "Mulher de 30 a 45 anos que já tem rotina de skincare",
+  "income": 32000,
+  "behaviour": "Segue influenciadora de skincare",
+  "behaviour_how": "Compra o que a influenciadora que ela confia indicou e pesquisa o ativo antes.",
+  "objection": "Será que é original? Cosmético falsificado pode estragar minha pele",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ },
+ {
+  "id": "P007",
+  "name": "Finn",
+  "age": 21,
+  "segment": "Jovem de 20 a 28 anos começando a cuidar da pele",
+  "income": 32000,
+  "behaviour": "Fiel à farmácia ou à loja de marca",
+  "behaviour_how": "Compra beleza na farmácia ou na loja da marca para ter certeza de que é original.",
+  "objection": "Na farmácia eu acho parecido e levo na hora",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P008",
+  "name": "Emil",
+  "age": 44,
+  "segment": "Compra para si e para presentear mãe, irmã e amigas",
+  "income": 31000,
+  "behaviour": "Compra por impulso",
+  "behaviour_how": "Vê uma oferta boa no celular e compra na hora, sem pesquisar muito.",
+  "objection": "Será que é original? Cosmético falsificado pode estragar minha pele",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P009",
+  "name": "Fatima",
+  "age": 35,
+  "segment": "Jovem de 20 a 28 anos começando a cuidar da pele",
+  "income": 30000,
+  "behaviour": "Compra por impulso",
+  "behaviour_how": "Vê uma oferta boa no celular e compra na hora, sem pesquisar muito.",
+  "objection": "Esse desconto é real ou aumentaram o preço antes?",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ },
+ {
+  "id": "P010",
+  "name": "Grace",
+  "age": 23,
+  "segment": "Compra para si e para presentear mãe, irmã e amigas",
+  "income": 27000,
+  "behaviour": "Compra só o necessário",
+  "behaviour_how": "Orçamento apertado, repõe só o que acabou (protetor, sabonete, hidratante).",
+  "objection": "O salário já acabou antes do fim do mês",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ },
+ {
+  "id": "P011",
+  "name": "Farah",
+  "age": 27,
+  "segment": "Mãe que trabalha fora",
+  "income": 38000,
+  "behaviour": "Caçadora de desconto",
+  "behaviour_how": "Só compra com cupom ou promoção e compara com farmácia e outros sites.",
+  "objection": "Não sei se esse produto serve para o meu tipo de pele",
+  "habit": "you check WhatsApp on the bus to and from work"
+ },
+ {
+  "id": "P012",
+  "name": "Jonah",
+  "age": 36,
+  "segment": "Jovem de 20 a 28 anos começando a cuidar da pele",
+  "income": 33000,
+  "behaviour": "Caçadora de desconto",
+  "behaviour_how": "Só compra com cupom ou promoção e compara com farmácia e outros sites.",
+  "objection": "Já tenho produto em casa, não preciso agora",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P013",
+  "name": "Victor",
+  "age": 31,
+  "segment": "Mãe que trabalha fora",
+  "income": 39000,
+  "behaviour": "Silenciou o grupo",
+  "behaviour_how": "Entrou num grupo de ofertas, silenciou e só abre de vez em quando.",
+  "objection": "Será que é original? Cosmético falsificado pode estragar minha pele",
+  "habit": "you get paid on the 5th and money is tight after the 20th"
+ },
+ {
+  "id": "P014",
+  "name": "Diego",
+  "age": 33,
+  "segment": "Compra para si e para presentear mãe, irmã e amigas",
+  "income": 34000,
+  "behaviour": "Compra só o necessário",
+  "behaviour_how": "Orçamento apertado, repõe só o que acabou (protetor, sabonete, hidratante).",
+  "objection": "Esse desconto é real ou aumentaram o preço antes?",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ },
+ {
+  "id": "P015",
+  "name": "Sam",
+  "age": 31,
+  "segment": "Mulher de 30 a 45 anos que já tem rotina de skincare",
+  "income": 35000,
+  "behaviour": "Silenciou o grupo",
+  "behaviour_how": "Entrou num grupo de ofertas, silenciou e só abre de vez em quando.",
+  "objection": "Esse desconto é real ou aumentaram o preço antes?",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P016",
+  "name": "Daniel",
+  "age": 36,
+  "segment": "Jovem de 20 a 28 anos começando a cuidar da pele",
+  "income": 30000,
+  "behaviour": "Compra só o necessário",
+  "behaviour_how": "Orçamento apertado, repõe só o que acabou (protetor, sabonete, hidratante).",
+  "objection": "O salário já acabou antes do fim do mês",
+  "habit": "you get paid on the 5th and money is tight after the 20th"
+ },
+ {
+  "id": "P017",
+  "name": "Keisha",
+  "age": 40,
+  "segment": "Mulher de 30 a 45 anos que já tem rotina de skincare",
+  "income": 32000,
+  "behaviour": "Caçadora de desconto",
+  "behaviour_how": "Só compra com cupom ou promoção e compara com farmácia e outros sites.",
+  "objection": "Não sei se esse produto serve para o meu tipo de pele",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P018",
+  "name": "Ben",
+  "age": 22,
+  "segment": "Jovem de 20 a 28 anos começando a cuidar da pele",
+  "income": 28000,
+  "behaviour": "Silenciou o grupo",
+  "behaviour_how": "Entrou num grupo de ofertas, silenciou e só abre de vez em quando.",
+  "objection": "Já tenho produto em casa, não preciso agora",
+  "habit": "you have the Shopee app installed and bought there before"
+ },
+ {
+  "id": "P019",
+  "name": "Caleb",
+  "age": 32,
+  "segment": "Mãe que trabalha fora",
+  "income": 31000,
+  "behaviour": "Compra por impulso",
+  "behaviour_how": "Vê uma oferta boa no celular e compra na hora, sem pesquisar muito.",
+  "objection": "Na farmácia eu acho parecido e levo na hora",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ },
+ {
+  "id": "P020",
+  "name": "Esme",
+  "age": 22,
+  "segment": "Mulher de 30 a 45 anos que já tem rotina de skincare",
+  "income": 39000,
+  "behaviour": "Fiel à farmácia ou à loja de marca",
+  "behaviour_how": "Compra beleza na farmácia ou na loja da marca para ter certeza de que é original.",
+  "objection": "Muita mensagem no grupo, eu nem leio",
+  "habit": "you watch skincare and makeup videos on TikTok and Instagram at night"
+ }
+]

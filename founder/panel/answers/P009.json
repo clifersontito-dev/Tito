@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "price",
+  "reason": "Eu compro por impulso mesmo: se aparece um protetor solar ou uma vitamina C de marca boa com desconto enquanto tô vendo o grupo à noite, eu clico e compro. Mas só coisa barata, até uns 60 reais, porque meu salário não dá pra mais.",
+  "objection": "Esse desconto é real ou aumentaram o preço antes? Já vi muita 'promoção' na Shopee que era o preço normal maquiado.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 30,
+  "price_expensive": 70,
+  "price_too_expensive": 120
+}
