@@ -1,0 +1,164 @@
+{
+ "business": "Caça ao Preço Beleza (grupo de WhatsApp só de achados de beleza da Shopee, com link de afiliado)",
+ "seed": 799069,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 13,
+ "passes": 7,
+ "buy_rate": 0.65,
+ "by_segment": [
+  [
+   "Compra para si e para presentear mãe, irmã e amigas",
+   3,
+   1.0
+  ],
+  [
+   "Mãe que trabalha fora",
+   7,
+   0.7142857142857143
+  ],
+  [
+   "Jovem de 20 a 28 anos começando a cuidar da pele",
+   6,
+   0.5
+  ],
+  [
+   "Mulher de 30 a 45 anos que já tem rotina de skincare",
+   4,
+   0.5
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Segue influenciadora de skincare",
+   3,
+   1.0
+  ],
+  [
+   "Compra por impulso",
+   4,
+   1.0
+  ],
+  [
+   "Compra só o necessário",
+   3,
+   1.0
+  ],
+  [
+   "Caçadora de desconto",
+   4,
+   0.75
+  ],
+  [
+   "Silenciou o grupo",
+   4,
+   0.0
+  ],
+  [
+   "Fiel à farmácia ou à loja de marca",
+   2,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "under $31,000",
+   5,
+   0.8
+  ],
+  [
+   "$31,000 to $34,000",
+   7,
+   0.7142857142857143
+  ],
+  [
+   "$34,000 and up",
+   8,
+   0.5
+  ]
+ ],
+ "why_not": [
+  [
+   "need",
+   3,
+   [
+    "Já tenho hidratante, protetor e água micelar em casa, ainda pela metade. O grupo tá silenciado e eu só abro de vez em quando, então provavelmente nem vejo a oferta certa na hora certa este mês.",
+    "Já tenho sabonete, hidratante e protetor em casa, não vou comprar só porque apareceu promoção. Fico olhando o grupo, mas este mês não compro nada."
+   ],
+   [
+    "P004",
+    "P012"
+   ]
+  ],
+  [
+   "trust",
+   3,
+   [
+    "Já comprei coisa na Shopee, mas skincare que vai no meu rosto eu prefiro pegar na farmácia, onde sei que é original e levo na hora. Vou olhar as ofertas do grupo, mas no primeiro mês acho que não compro.",
+    "Eu silenciei o grupo e só abro de vez em quando, e quando abro fico desconfiada: link de afiliado da Shopee com Bioderma barata demais, não sei se é original. Prefiro pagar mais na farmácia do que estragar minha pele."
+   ],
+   [
+    "P007",
+    "P013"
+   ]
+  ],
+  [
+   "habit",
+   1,
+   [
+    "Eu silenciei o grupo e só abro de vez em quando, então a maioria das ofertas passa batido. Quando preciso repor protetor ou hidratante eu já vou direto na Shopee e compro o de sempre, sem passar pelo grupo."
+   ],
+   [
+    "P015"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "price",
+   7,
+   [
+    "Só compro se aparecer no grupo um produto que a influenciadora que eu sigo já indicou, tipo o protetor solar ou a vitamina C, com desconto de verdade logo depois do dia 5. Aí uma vez no mês eu compro, mais que isso não cabe no orçamento.",
+    "Já tô no grupo e já compro na Shopee, então se aparecer um protetor solar ou um gel de limpeza bem baratinho no começo do mês, eu pego um. Mas é um só, porque o salário não dá pra mais."
+   ],
+   [
+    "P002",
+    "P003"
+   ]
+  ],
+  [
+   "need",
+   5,
+   [
+    "Só compro se aparecer um produto que a influenciadora que eu sigo já indicou, tipo um protetor facial ou o micelar da Bioderma, e quando eu acabar o meu. Aí eu confiro o preço no histórico da Shopee e compro uma vez, o resto eu só olho no ônibus.",
+    "Eu compro por impulso no celular e já uso a Shopee; se aparecer um protetor solar ou uma água micelar de marca que eu conheço com desconto bom, eu clico e compro na hora, pra mim ou pra dar pra minha mãe."
+   ],
+   [
+    "P001",
+    "P008"
+   ]
+  ],
+  [
+   "habit",
+   1,
+   [
+    "À noite eu já fico no celular vendo vídeo de skincare, se aparece um protetor ou um sérum com desconto bom no grupo eu clico e compro na hora. Mas é uma vez, talvez duas, porque o dinheiro do mês é apertado."
+   ],
+   [
+    "P019"
+   ]
+  ]
+ ],
+ "flip": [
+  "Se meu protetor solar acabar e eu abrir o grupo justo quando tiver um que eu já uso com desconto bom.",
+  "Ver a oferta vendida pela loja oficial da marca na Shopee (tipo Loja Oficial L'Oréal ou Bioderma) com um preço bem abaixo da farmácia.",
+  "Se meu protetor solar acabasse e aparecesse no grupo mais barato que na farmácia e nos outros sites, com cupom e frete grátis.",
+  "Se a postagem mostrasse que a loja é a oficial da marca na Shopee (Shopee Mall) e alguém do grupo mostrasse o produto que chegou, e caísse logo depois do dia 5.",
+  "Ver o print do histórico de preço do produto junto com a oferta, bem na hora em que o meu protetor ou sérum estiver acabando.",
+  "Se meu protetor solar ou hidratante acabasse justo na semana em que eu abrisse o grupo e visse ele com desconto bom.",
+  "Se a oferta fosse da loja oficial da marca dentro da Shopee, com selo de oficial, e por um preço bem abaixo do da farmácia."
+ ],
+ "purchases_first_month_per_buyer": 1.1538461538461537,
+ "price_answers": 20
+}
