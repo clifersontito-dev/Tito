@@ -1,13 +1,13 @@
 {
   "id": "P001",
-  "buys": true,
-  "purchases_first_month": 1,
-  "reason_code": "need",
-  "reason": "Só compro se aparecer um produto que a influenciadora que eu sigo já indicou, tipo um protetor facial ou o micelar da Bioderma, e quando eu acabar o meu. Aí eu confiro o preço no histórico da Shopee e compro uma vez, o resto eu só olho no ônibus.",
-  "objection": "Esse desconto de 30% é real ou a loja subiu o preço antes pra parecer promoção? E se vier falsificado eu perco o dinheiro do mês.",
-  "would_change_my_mind": "",
-  "price_too_cheap": 15,
-  "price_cheap": 35,
-  "price_expensive": 80,
-  "price_too_expensive": 140
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Grupo de oferta eu silencio no primeiro dia, 12 mensagens por dia vira barulho e eu nem abro. Quando quero alguma coisa eu mesmo pesquiso na Shopee e comparo com Mercado Livre e cupom, não vou garimpar no meio de mop e triciclo de criança.",
+  "objection": "Muita mensagem no grupo, eu nem leio, e a maior parte é coisa de casa e criança que não é pra mim. E esse 30% de desconto eu sempre desconfio, preciso comparar o preço em outro lugar antes.",
+  "would_change_my_mind": "Se aparecesse um cupom exclusivo ou preço bem abaixo do que eu acho em qualquer outro lugar, de algo que eu já estava querendo comprar, tipo fone ou tênis, eu clicava.",
+  "price_too_cheap": 10,
+  "price_cheap": 25,
+  "price_expensive": 70,
+  "price_too_expensive": 120
 }

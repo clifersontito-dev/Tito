@@ -1,13 +1,13 @@
 {
   "id": "P002",
-  "buys": true,
-  "purchases_first_month": 1,
-  "reason_code": "price",
-  "reason": "Só compro se aparecer no grupo um produto que a influenciadora que eu sigo já indicou, tipo o protetor solar ou a vitamina C, com desconto de verdade logo depois do dia 5. Aí uma vez no mês eu compro, mais que isso não cabe no orçamento.",
-  "objection": "Na farmácia eu acho parecido e levo na hora, sem esperar entrega e sem medo de vir falsificado ou vencido da Shopee.",
-  "would_change_my_mind": "",
-  "price_too_cheap": 15,
-  "price_cheap": 35,
-  "price_expensive": 80,
-  "price_too_expensive": 120
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Silenciei o grupo e quase nunca abro, então a oferta passa e eu nem vejo. E quando abro, o salário já acabou, só compro se for algo que quebrou em casa e eu precise mesmo.",
+  "objection": "Doze ofertas por dia é coisa demais pra quem não tem dinheiro sobrando; desconto de 30% em coisa que eu não preciso continua sendo gasto.",
+  "would_change_my_mind": "Ver, bem na hora que eu preciso, uma coisa básica de casa (tipo rodo, lixeira, tapete) abaixo de R$ 30 e com frete grátis, logo depois do pagamento.",
+  "price_too_cheap": 8,
+  "price_cheap": 20,
+  "price_expensive": 50,
+  "price_too_expensive": 90
 }

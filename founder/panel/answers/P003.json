@@ -1,13 +1,13 @@
 {
   "id": "P003",
-  "buys": true,
-  "purchases_first_month": 1,
-  "reason_code": "price",
-  "reason": "Já tô no grupo e já compro na Shopee, então se aparecer um protetor solar ou um gel de limpeza bem baratinho no começo do mês, eu pego um. Mas é um só, porque o salário não dá pra mais.",
-  "objection": "Não sei se esse desconto de 30% é de verdade ou se aumentaram o preço antes; vou comparar com a farmácia e outros sites antes, e se lá estiver igual eu não compro pelo link.",
-  "would_change_my_mind": "",
-  "price_too_cheap": 8,
-  "price_cheap": 25,
-  "price_expensive": 55,
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Entrei no grupo mas só compro quando algo quebra ou acaba, e mop, tapete de cozinha ou kit de camiseta não é coisa que eu precise esse mês. Desconto bom em coisa que eu não preciso continua sendo gasto.",
+  "objection": "Produto da Shopee às vezes vem diferente da foto, e com o orçamento apertado não dá pra perder R$ 50 numa coisa que chega ruim e dar trabalho pra devolver.",
+  "would_change_my_mind": "Aparecer com desconto justo algo que eu realmente preciso naquela semana, tipo uma coisa básica de casa que acabou de quebrar, com avaliações e fotos reais de quem comprou.",
+  "price_too_cheap": 12,
+  "price_cheap": 30,
+  "price_expensive": 60,
   "price_too_expensive": 90
 }

@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "need",
+  "reason": "Eu compro por impulso no celular e já uso a Shopee; se aparecer um protetor solar ou uma água micelar de marca que eu conheço com desconto bom, eu clico e compro na hora, pra mim ou pra dar pra minha mãe.",
+  "objection": "Tenho medo de vir falsificado e estragar minha pele. Dizer que filtra loja ruim ajuda, mas eu só confio de verdade se for loja oficial da marca.",
+  "would_change_my_mind": "Se uma amiga do grupo recebesse um produto falsificado ou vencido por um link de lá, eu parava de comprar.",
+  "price_too_cheap": 12,
+  "price_cheap": 30,
+  "price_expensive": 70,
+  "price_too_expensive": 120
+}

@@ -1,35 +1,35 @@
 {
-  "business": "Caça ao Preço Beleza (grupo de WhatsApp só de achados de beleza da Shopee, com link de afiliado)",
-  "target": "Brazilian women, CLT workers earning R$ 2,000 to R$ 3,000 a month, who are already members of a Shopee beauty deals WhatsApp group (income below is per year in R$)",
+  "business": "Caça ao Preço (grupo de WhatsApp de achados da Shopee com link de afiliado, 4 categorias)",
+  "target": "Brazilian CLT workers, men and women, earning R$ 2,000 to R$ 3,000 a month, who are already members of a Shopee deals WhatsApp group (income below is per year in R$)",
   "where": "Brasil, cidades médias e grandes",
-  "age": [20, 45],
+  "age": [22, 45],
   "segments": [
-    {"name": "Mãe que trabalha fora", "share": 0.35, "income": [26000, 39000]},
-    {"name": "Jovem de 20 a 28 anos começando a cuidar da pele", "share": 0.30, "income": [26000, 34000]},
-    {"name": "Mulher de 30 a 45 anos que já tem rotina de skincare", "share": 0.20, "income": [30000, 39000]},
-    {"name": "Compra para si e para presentear mãe, irmã e amigas", "share": 0.15, "income": [26000, 36000]}
+    {"name": "Mãe ou pai com filho pequeno", "share": 0.35, "income": [26000, 39000]},
+    {"name": "Jovem solteiro, mora com os pais ou divide aluguel", "share": 0.30, "income": [26000, 34000]},
+    {"name": "Casal sem filhos montando a casa", "share": 0.20, "income": [30000, 39000]},
+    {"name": "Adulto que sustenta a casa sozinho", "share": 0.15, "income": [26000, 32000]}
   ],
   "behaviours": [
     {"name": "Compra por impulso", "share": 0.20, "how": "Vê uma oferta boa no celular e compra na hora, sem pesquisar muito."},
-    {"name": "Caçadora de desconto", "share": 0.20, "how": "Só compra com cupom ou promoção e compara com farmácia e outros sites."},
+    {"name": "Caçador de desconto", "share": 0.20, "how": "Só compra com cupom ou promoção e compara preço em mais de um lugar."},
     {"name": "Silenciou o grupo", "share": 0.20, "how": "Entrou num grupo de ofertas, silenciou e só abre de vez em quando."},
-    {"name": "Segue influenciadora de skincare", "share": 0.15, "how": "Compra o que a influenciadora que ela confia indicou e pesquisa o ativo antes."},
-    {"name": "Compra só o necessário", "share": 0.15, "how": "Orçamento apertado, repõe só o que acabou (protetor, sabonete, hidratante)."},
-    {"name": "Fiel à farmácia ou à loja de marca", "share": 0.10, "how": "Compra beleza na farmácia ou na loja da marca para ter certeza de que é original."}
+    {"name": "Lê todas as avaliações", "share": 0.15, "how": "Abre as avaliações com foto antes de qualquer compra online."},
+    {"name": "Compra só o necessário", "share": 0.15, "how": "Orçamento apertado, compra só quando algo quebra ou acaba."},
+    {"name": "Desconfia da Shopee", "share": 0.10, "how": "Já recebeu produto ruim ou que não chegou e prefere Mercado Livre ou loja física."}
   ],
   "objections": [
-    "Será que é original? Cosmético falsificado pode estragar minha pele",
     "O salário já acabou antes do fim do mês",
-    "Não sei se esse produto serve para o meu tipo de pele",
     "Esse desconto é real ou aumentaram o preço antes?",
-    "Na farmácia eu acho parecido e levo na hora",
+    "Produto da Shopee às vezes vem diferente da foto",
     "Muita mensagem no grupo, eu nem leio",
-    "Já tenho produto em casa, não preciso agora"
+    "Demora pra chegar",
+    "Eu não preciso disso agora",
+    "Já estou em outros grupos de oferta iguais"
   ],
   "habits": [
     "you check WhatsApp on the bus to and from work",
     "you get paid on the 5th and money is tight after the 20th",
-    "you watch skincare and makeup videos on TikTok and Instagram at night",
+    "you scroll Instagram and TikTok at night before sleeping",
     "you have the Shopee app installed and bought there before"
   ]
 }

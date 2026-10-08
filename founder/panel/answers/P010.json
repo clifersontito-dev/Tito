@@ -2,12 +2,12 @@
   "id": "P010",
   "buys": true,
   "purchases_first_month": 1,
-  "reason_code": "need",
-  "reason": "Eu não compro por impulso, mas meu protetor ou hidratante sempre acaba em algum momento do mês. Se aparecer no grupo com 30% de desconto bem na hora que acabou, eu compro pelo link, porque é o que eu ia comprar de qualquer jeito.",
-  "objection": "O salário já acabou antes do fim do mês. Ver oferta todo dia dá vontade de gastar com coisa que eu não preciso, e eu não posso. Também fico com medo de frete e de demorar a chegar quando o produto já acabou.",
+  "reason_code": "price",
+  "reason": "Eu já tô no grupo justamente pra caçar promoção, então se aparecer um tapete de cozinha ou camiseta barata com 30% off de verdade eu compro uma coisinha. Mas antes eu confiro o preço no app e em outro lugar, e só pego se tiver cupom ou frete grátis.",
+  "objection": "Produto da Shopee às vezes vem diferente da foto, e mesmo com o filtro de loja eu tenho medo de pagar e chegar uma coisa fraca. Além disso, muito item é de casa ou de criança, que nem sempre é o que eu preciso.",
   "would_change_my_mind": "",
   "price_too_cheap": 12,
   "price_cheap": 25,
-  "price_expensive": 50,
-  "price_too_expensive": 80
+  "price_expensive": 60,
+  "price_too_expensive": 100
 }
