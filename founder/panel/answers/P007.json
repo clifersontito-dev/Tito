@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Sustento a casa sozinho e o dinheiro já tem destino todo mês. Vejo as ofertas à noite, mas quase sempre é coisa que eu não preciso agora, e desconto em coisa que não preciso continua sendo gasto.",
+  "objection": "Não preciso disso agora. E mesmo quando aparece algo útil, eu só compro depois de abrir as avaliações com foto, e aí geralmente desisto ou deixo pra depois.",
+  "would_change_my_mind": "Aparecer exatamente algo que quebrou ou acabou em casa (tipo um rodo ou uma lixeira) num preço bem abaixo do mercado, com muita avaliação com foto boa.",
+  "price_too_cheap": 15,
+  "price_cheap": 30,
+  "price_expensive": 70,
+  "price_too_expensive": 120
+}

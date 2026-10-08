@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "A rodada das 18h de coisa de criança pega eu no ônibus voltando do trabalho, e se aparecer algo barato pro meu filho tipo um brinquedo ou roupinha de uns 30, 40 reais eu clico e compro na hora. Mas é uma vez só, logo depois do pagamento, porque no fim do mês não sobra nada.",
+  "objection": "O salário já acabou antes do fim do mês. Mesmo com desconto, 50 reais em coisa que não é urgente me aperta, e tenho medo de chegar coisa fraca que quebra rápido.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 10,
+  "price_cheap": 25,
+  "price_expensive": 60,
+  "price_too_expensive": 100
+}

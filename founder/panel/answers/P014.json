@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Grupo com 12 mensagens por dia eu silencio no primeiro dia e nem abro mais. Quando preciso de algo pro meu filho eu já vou direto no app da Shopee, pego cupom e comparo preço lá mesmo.",
+  "objection": "É muita mensagem, eu não leio, e não sei se esse 30% de desconto é real ou se o preço foi inflado antes. Eu ia ter que conferir em outro lugar de qualquer jeito.",
+  "would_change_my_mind": "Se tivesse só um resumo por dia com as ofertas de criança, mostrando o preço antigo comprovado e um cupom extra que eu não acho sozinho no app.",
+  "price_too_cheap": 15,
+  "price_cheap": 30,
+  "price_expensive": 70,
+  "price_too_expensive": 110
+}

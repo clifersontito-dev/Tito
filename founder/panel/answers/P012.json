@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já me ferrei com a Shopee, produto ruim e coisa que nunca chegou. Vejo as ofertas no grupo, mas quando preciso de algo pro meu filho ou pra casa compro no Mercado Livre ou na loja, e esse mês eu não preciso de nada disso agora.",
+  "objection": "Não confio na Shopee. Desconto de 30% não adianta se o produto chega diferente da foto ou não chega, e dar trabalho pra devolver com o dinheiro já apertado.",
+  "would_change_my_mind": "Ver alguém conhecido do grupo mostrando o produto que chegou de verdade, bom, no prazo, e por um preço que o Mercado Livre não bate, no dia que eu realmente precisar daquilo.",
+  "price_too_cheap": 15,
+  "price_cheap": 30,
+  "price_expensive": 70,
+  "price_too_expensive": 120
+}

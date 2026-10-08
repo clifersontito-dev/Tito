@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já me ferrei na Shopee com produto que não chegou e outro que veio uma porcaria, então mesmo vendo umas coisas boas pro meu filho no grupo, eu acabo procurando no Mercado Livre ou comprando na loja aqui perto. Depois do dia 20 o dinheiro some e não vou arriscar R$ 50 ou R$ 90 num lugar que já me deu dor de cabeça.",
+  "objection": "Esse desconto de 30% é real ou a loja aumentou o preço antes pra dar desconto em cima? E se o produto não chegar, quem resolve, o grupo ou eu brigando com a Shopee sozinho?",
+  "would_change_my_mind": "Ver o print do histórico de preço mostrando que o desconto é de verdade, junto com foto de alguém do grupo que comprou e recebeu o mesmo produto, de preferência coisa de criança perto do dia 5.",
+  "price_too_cheap": 15,
+  "price_cheap": 35,
+  "price_expensive": 70,
+  "price_too_expensive": 120
+}
