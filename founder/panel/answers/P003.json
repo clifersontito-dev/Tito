@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "Já tô no grupo e já compro na Shopee, então se aparecer um protetor solar ou um gel de limpeza bem baratinho no começo do mês, eu pego um. Mas é um só, porque o salário não dá pra mais.",
+  "objection": "Não sei se esse desconto de 30% é de verdade ou se aumentaram o preço antes; vou comparar com a farmácia e outros sites antes, e se lá estiver igual eu não compro pelo link.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 8,
+  "price_cheap": 25,
+  "price_expensive": 55,
+  "price_too_expensive": 90
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Já tenho sabonete, hidratante e protetor em casa, não vou comprar só porque apareceu promoção. Fico olhando o grupo, mas este mês não compro nada.",
+  "objection": "Não preciso agora, e 30% de desconto às vezes é em cima de um preço inflado, já vi o mesmo produto mais barato na farmácia com cupom.",
+  "would_change_my_mind": "Se meu protetor solar acabasse e aparecesse no grupo mais barato que na farmácia e nos outros sites, com cupom e frete grátis.",
+  "price_too_cheap": 8,
+  "price_cheap": 20,
+  "price_expensive": 45,
+  "price_too_expensive": 70
+}

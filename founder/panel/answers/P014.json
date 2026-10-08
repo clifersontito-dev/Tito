@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Não vou comprar sérum nem maquiagem só porque tá barato, mas meu protetor ou hidratante vai acabar no mês e, se aparecer um no grupo com desconto bom, compro pelo link em vez de pagar caro na farmácia.",
+  "objection": "Esse desconto é real ou aumentaram o preço antes? Se eu ver que o 'de' foi inflado, paro de confiar no grupo.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 30,
+  "price_expensive": 60,
+  "price_too_expensive": 90
+}

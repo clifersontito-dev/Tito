@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "habit",
+  "reason": "À noite eu já fico no celular vendo vídeo de skincare, se aparece um protetor ou um sérum com desconto bom no grupo eu clico e compro na hora. Mas é uma vez, talvez duas, porque o dinheiro do mês é apertado.",
+  "objection": "Na farmácia eu acho parecido e levo na hora, sem esperar entrega e sem medo de vir falsificado da Shopee.",
+  "would_change_my_mind": "Se nas primeiras ofertas o preço não for bem mais baixo que o da farmácia perto de casa, ou se o frete comer o desconto, eu nem clico.",
+  "price_too_cheap": 10,
+  "price_cheap": 25,
+  "price_expensive": 60,
+  "price_too_expensive": 100
+}

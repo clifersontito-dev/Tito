@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "Eu só compro em promoção mesmo, então se aparecer uma água micelar ou protetor que eu já uso com 30% off e eu conferir que tá mais barato que na farmácia, eu compro pelo link. Mas é uma vez, coisa que eu já conheço, não vou sair testando produto novo.",
+  "objection": "Não sei se esse produto serve pro meu tipo de pele, e ácido e sérum que eu nunca usei eu não arrisco comprar só porque tá barato.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 30,
+  "price_expensive": 65,
+  "price_too_expensive": 100
+}

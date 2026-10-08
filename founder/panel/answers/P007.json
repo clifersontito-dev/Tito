@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Já comprei coisa na Shopee, mas skincare que vai no meu rosto eu prefiro pegar na farmácia, onde sei que é original e levo na hora. Vou olhar as ofertas do grupo, mas no primeiro mês acho que não compro.",
+  "objection": "Mesmo com filtro de loja, tenho medo de vir produto falsificado ou vencido, e na farmácia eu acho parecido sem esperar entrega.",
+  "would_change_my_mind": "Ver a oferta vendida pela loja oficial da marca na Shopee (tipo Loja Oficial L'Oréal ou Bioderma) com um preço bem abaixo da farmácia.",
+  "price_too_cheap": 15,
+  "price_cheap": 35,
+  "price_expensive": 80,
+  "price_too_expensive": 130
+}
