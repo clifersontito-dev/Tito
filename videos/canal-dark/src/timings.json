@@ -1,65 +1,794 @@
 {
- "total": 61.63,
+ "total": 63.85,
  "lines": [
   {
-   "text": "Novembro de mil novecentos e setenta e um.",
-   "start": 1.0,
-   "dur": 2.405
+   "text": "Vinte e quatro de novembro de mil novecentos e setenta e um.",
+   "start": 0.653,
+   "dur": 3.438,
+   "words": [
+    {
+     "w": "Vinte",
+     "start": 0.653,
+     "end": 0.979
+    },
+    {
+     "w": "e",
+     "start": 0.979,
+     "end": 1.02
+    },
+    {
+     "w": "quatro",
+     "start": 1.02,
+     "end": 1.441
+    },
+    {
+     "w": "de",
+     "start": 1.441,
+     "end": 1.536
+    },
+    {
+     "w": "novembro",
+     "start": 1.536,
+     "end": 2.148
+    },
+    {
+     "w": "de",
+     "start": 2.148,
+     "end": 2.284
+    },
+    {
+     "w": "mil",
+     "start": 2.284,
+     "end": 2.555
+    },
+    {
+     "w": "novecentos",
+     "start": 2.555,
+     "end": 3.153
+    },
+    {
+     "w": "e",
+     "start": 3.153,
+     "end": 3.262
+    },
+    {
+     "w": "setenta",
+     "start": 3.262,
+     "end": 3.765
+    },
+    {
+     "w": "e",
+     "start": 3.765,
+     "end": 3.833
+    },
+    {
+     "w": "um.",
+     "start": 3.833,
+     "end": 4.091
+    }
+   ]
   },
   {
-   "text": "Um homem de terno compra uma passagem de Portland para Seattle. Nome: Dan Cooper.",
-   "start": 4.005,
-   "dur": 5.789
+   "text": "Um homem de terno escuro compra uma passagem de Portland para Seattle... e dá um nome: Dan Cooper.",
+   "start": 4.459,
+   "dur": 6.059,
+   "words": [
+    {
+     "w": "Um",
+     "start": 4.459,
+     "end": 4.649
+    },
+    {
+     "w": "homem",
+     "start": 4.649,
+     "end": 4.961
+    },
+    {
+     "w": "de",
+     "start": 4.961,
+     "end": 5.124
+    },
+    {
+     "w": "terno",
+     "start": 5.124,
+     "end": 5.396
+    },
+    {
+     "w": "escuro",
+     "start": 5.396,
+     "end": 5.912
+    },
+    {
+     "w": "compra",
+     "start": 5.912,
+     "end": 6.307
+    },
+    {
+     "w": "uma",
+     "start": 6.307,
+     "end": 6.415
+    },
+    {
+     "w": "passagem",
+     "start": 6.415,
+     "end": 6.931
+    },
+    {
+     "w": "de",
+     "start": 6.932,
+     "end": 7.04
+    },
+    {
+     "w": "Portland",
+     "start": 7.04,
+     "end": 7.679
+    },
+    {
+     "w": "para",
+     "start": 7.679,
+     "end": 7.883
+    },
+    {
+     "w": "Seattle...",
+     "start": 7.883,
+     "end": 8.521
+    },
+    {
+     "w": "e",
+     "start": 8.711,
+     "end": 8.82
+    },
+    {
+     "w": "dá",
+     "start": 8.82,
+     "end": 9.024
+    },
+    {
+     "w": "um",
+     "start": 9.024,
+     "end": 9.133
+    },
+    {
+     "w": "nome:",
+     "start": 9.133,
+     "end": 9.486
+    },
+    {
+     "w": "Dan",
+     "start": 9.73,
+     "end": 10.029
+    },
+    {
+     "w": "Cooper.",
+     "start": 10.029,
+     "end": 10.518
+    }
+   ]
   },
   {
-   "text": "Após a decolagem, ele entrega um bilhete à comissária. Tem uma bomba na maleta.",
-   "start": 10.394,
-   "dur": 5.565
+   "text": "Logo depois da decolagem, ele entrega um bilhete à comissária. Diz que tem uma bomba na maleta.",
+   "start": 10.885,
+   "dur": 6.208,
+   "words": [
+    {
+     "w": "Logo",
+     "start": 10.885,
+     "end": 11.252
+    },
+    {
+     "w": "depois",
+     "start": 11.252,
+     "end": 11.592
+    },
+    {
+     "w": "da",
+     "start": 11.592,
+     "end": 11.714
+    },
+    {
+     "w": "decolagem,",
+     "start": 11.714,
+     "end": 12.461
+    },
+    {
+     "w": "ele",
+     "start": 12.692,
+     "end": 12.828
+    },
+    {
+     "w": "entrega",
+     "start": 12.828,
+     "end": 13.372
+    },
+    {
+     "w": "um",
+     "start": 13.372,
+     "end": 13.521
+    },
+    {
+     "w": "bilhete",
+     "start": 13.521,
+     "end": 14.092
+    },
+    {
+     "w": "à",
+     "start": 14.092,
+     "end": 14.133
+    },
+    {
+     "w": "comissária.",
+     "start": 14.133,
+     "end": 14.853
+    },
+    {
+     "w": "Diz",
+     "start": 15.232,
+     "end": 15.572
+    },
+    {
+     "w": "que",
+     "start": 15.572,
+     "end": 15.708
+    },
+    {
+     "w": "tem",
+     "start": 15.708,
+     "end": 15.857
+    },
+    {
+     "w": "uma",
+     "start": 15.857,
+     "end": 16.034
+    },
+    {
+     "w": "bomba",
+     "start": 16.034,
+     "end": 16.455
+    },
+    {
+     "w": "na",
+     "start": 16.455,
+     "end": 16.564
+    },
+    {
+     "w": "maleta.",
+     "start": 16.564,
+     "end": 17.093
+    }
+   ]
   },
   {
-   "text": "Ele exige duzentos mil dólares e quatro paraquedas.",
-   "start": 16.559,
-   "dur": 2.927
+   "text": "E exige duzentos mil dólares... e quatro paraquedas.",
+   "start": 17.474,
+   "dur": 3.845,
+   "words": [
+    {
+     "w": "E",
+     "start": 17.474,
+     "end": 17.569
+    },
+    {
+     "w": "exige",
+     "start": 17.569,
+     "end": 18.18
+    },
+    {
+     "w": "duzentos",
+     "start": 18.18,
+     "end": 18.792
+    },
+    {
+     "w": "mil",
+     "start": 18.792,
+     "end": 19.009
+    },
+    {
+     "w": "dólares...",
+     "start": 19.009,
+     "end": 19.594
+    },
+    {
+     "w": "e",
+     "start": 19.811,
+     "end": 19.947
+    },
+    {
+     "w": "quatro",
+     "start": 19.947,
+     "end": 20.436
+    },
+    {
+     "w": "paraquedas.",
+     "start": 20.436,
+     "end": 21.319
+    }
+   ]
   },
   {
-   "text": "Em Seattle, recebe o dinheiro e libera os passageiros.",
-   "start": 20.086,
-   "dur": 3.23
+   "text": "Em Seattle, ele recebe o dinheiro e libera os passageiros.",
+   "start": 21.686,
+   "dur": 3.791,
+   "words": [
+    {
+     "w": "Em",
+     "start": 21.686,
+     "end": 21.876
+    },
+    {
+     "w": "Seattle,",
+     "start": 21.876,
+     "end": 22.542
+    },
+    {
+     "w": "ele",
+     "start": 22.746,
+     "end": 22.882
+    },
+    {
+     "w": "recebe",
+     "start": 22.882,
+     "end": 23.316
+    },
+    {
+     "w": "o",
+     "start": 23.316,
+     "end": 23.357
+    },
+    {
+     "w": "dinheiro",
+     "start": 23.357,
+     "end": 23.996
+    },
+    {
+     "w": "e",
+     "start": 23.996,
+     "end": 24.064
+    },
+    {
+     "w": "libera",
+     "start": 24.064,
+     "end": 24.512
+    },
+    {
+     "w": "os",
+     "start": 24.512,
+     "end": 24.58
+    },
+    {
+     "w": "passageiros.",
+     "start": 24.58,
+     "end": 25.477
+    }
+   ]
   },
   {
-   "text": "O avião decola rumo ao México. Mas, sobre as florestas de Washington, a escada traseira se abre.",
-   "start": 23.916,
-   "dur": 6.874
+   "text": "O avião volta a decolar, rumo ao México. Mas, sobre as florestas de Washington, a escada traseira se abre.",
+   "start": 25.843,
+   "dur": 8.085,
+   "words": [
+    {
+     "w": "O",
+     "start": 25.843,
+     "end": 25.939
+    },
+    {
+     "w": "avião",
+     "start": 25.939,
+     "end": 26.536
+    },
+    {
+     "w": "volta",
+     "start": 26.536,
+     "end": 26.903
+    },
+    {
+     "w": "a",
+     "start": 26.903,
+     "end": 26.93
+    },
+    {
+     "w": "decolar,",
+     "start": 26.93,
+     "end": 27.474
+    },
+    {
+     "w": "rumo",
+     "start": 27.773,
+     "end": 28.14
+    },
+    {
+     "w": "ao",
+     "start": 28.14,
+     "end": 28.262
+    },
+    {
+     "w": "México.",
+     "start": 28.262,
+     "end": 28.846
+    },
+    {
+     "w": "Mas,",
+     "start": 29.213,
+     "end": 29.756
+    },
+    {
+     "w": "sobre",
+     "start": 29.933,
+     "end": 30.232
+    },
+    {
+     "w": "as",
+     "start": 30.232,
+     "end": 30.327
+    },
+    {
+     "w": "florestas",
+     "start": 30.327,
+     "end": 30.993
+    },
+    {
+     "w": "de",
+     "start": 30.993,
+     "end": 31.115
+    },
+    {
+     "w": "Washington,",
+     "start": 31.115,
+     "end": 31.767
+    },
+    {
+     "w": "a",
+     "start": 31.971,
+     "end": 32.053
+    },
+    {
+     "w": "escada",
+     "start": 32.053,
+     "end": 32.637
+    },
+    {
+     "w": "traseira",
+     "start": 32.637,
+     "end": 33.303
+    },
+    {
+     "w": "se",
+     "start": 33.303,
+     "end": 33.52
+    },
+    {
+     "w": "abre.",
+     "start": 33.52,
+     "end": 33.928
+    }
+   ]
   },
   {
-   "text": "Cooper salta, no escuro, debaixo de chuva. E desaparece.",
-   "start": 31.59,
-   "dur": 4.944
+   "text": "Cooper salta. No escuro. Debaixo de chuva. E desaparece.",
+   "start": 34.323,
+   "dur": 5.621,
+   "words": [
+    {
+     "w": "Cooper",
+     "start": 34.323,
+     "end": 34.69
+    },
+    {
+     "w": "salta.",
+     "start": 34.69,
+     "end": 35.233
+    },
+    {
+     "w": "No",
+     "start": 35.614,
+     "end": 35.912
+    },
+    {
+     "w": "escuro.",
+     "start": 35.913,
+     "end": 36.497
+    },
+    {
+     "w": "Debaixo",
+     "start": 36.876,
+     "end": 37.61
+    },
+    {
+     "w": "de",
+     "start": 37.61,
+     "end": 37.718
+    },
+    {
+     "w": "chuva.",
+     "start": 37.718,
+     "end": 38.289
+    },
+    {
+     "w": "E",
+     "start": 38.666,
+     "end": 38.911
+    },
+    {
+     "w": "desaparece.",
+     "start": 38.911,
+     "end": 39.944
+    }
+   ]
   },
   {
    "text": "Mais de oitocentos suspeitos foram investigados.",
-   "start": 37.834,
-   "dur": 2.874
+   "start": 40.314,
+   "dur": 3.274,
+   "words": [
+    {
+     "w": "Mais",
+     "start": 40.314,
+     "end": 40.708
+    },
+    {
+     "w": "de",
+     "start": 40.708,
+     "end": 40.83
+    },
+    {
+     "w": "oitocentos",
+     "start": 40.83,
+     "end": 41.55
+    },
+    {
+     "w": "suspeitos",
+     "start": 41.55,
+     "end": 42.243
+    },
+    {
+     "w": "foram",
+     "start": 42.243,
+     "end": 42.623
+    },
+    {
+     "w": "investigados.",
+     "start": 42.623,
+     "end": 43.588
+    }
+   ]
   },
   {
-   "text": "Em mil novecentos e oitenta, um menino encontra parte do resgate, enterrada na beira de um rio.",
-   "start": 41.308,
-   "dur": 5.646
+   "text": "Em mil novecentos e oitenta, um menino encontra parte do resgate enterrada na beira de um rio.",
+   "start": 43.968,
+   "dur": 5.653,
+   "words": [
+    {
+     "w": "Em",
+     "start": 43.968,
+     "end": 44.104
+    },
+    {
+     "w": "mil",
+     "start": 44.104,
+     "end": 44.295
+    },
+    {
+     "w": "novecentos",
+     "start": 44.295,
+     "end": 44.784
+    },
+    {
+     "w": "e",
+     "start": 44.784,
+     "end": 44.892
+    },
+    {
+     "w": "oitenta,",
+     "start": 44.892,
+     "end": 45.409
+    },
+    {
+     "w": "um",
+     "start": 45.585,
+     "end": 45.748
+    },
+    {
+     "w": "menino",
+     "start": 45.748,
+     "end": 46.142
+    },
+    {
+     "w": "encontra",
+     "start": 46.142,
+     "end": 46.618
+    },
+    {
+     "w": "parte",
+     "start": 46.618,
+     "end": 47.066
+    },
+    {
+     "w": "do",
+     "start": 47.066,
+     "end": 47.134
+    },
+    {
+     "w": "resgate",
+     "start": 47.134,
+     "end": 47.8
+    },
+    {
+     "w": "enterrada",
+     "start": 47.8,
+     "end": 48.507
+    },
+    {
+     "w": "na",
+     "start": 48.507,
+     "end": 48.67
+    },
+    {
+     "w": "beira",
+     "start": 48.67,
+     "end": 49.064
+    },
+    {
+     "w": "de",
+     "start": 49.064,
+     "end": 49.172
+    },
+    {
+     "w": "um",
+     "start": 49.172,
+     "end": 49.295
+    },
+    {
+     "w": "rio.",
+     "start": 49.295,
+     "end": 49.621
+    }
+   ]
   },
   {
-   "text": "Do homem, nenhum sinal.",
-   "start": 47.554,
-   "dur": 1.703
+   "text": "Do homem... nenhum sinal.",
+   "start": 49.988,
+   "dur": 1.82,
+   "words": [
+    {
+     "w": "Do",
+     "start": 49.988,
+     "end": 50.178
+    },
+    {
+     "w": "homem...",
+     "start": 50.178,
+     "end": 50.599
+    },
+    {
+     "w": "nenhum",
+     "start": 50.857,
+     "end": 51.278
+    },
+    {
+     "w": "sinal.",
+     "start": 51.278,
+     "end": 51.808
+    }
+   ]
   },
   {
    "text": "Em dois mil e dezesseis, o FBI encerrou as buscas. Sem solução.",
-   "start": 50.257,
-   "dur": 5.387
+   "start": 52.19,
+   "dur": 5.231,
+   "words": [
+    {
+     "w": "Em",
+     "start": 52.19,
+     "end": 52.339
+    },
+    {
+     "w": "dois",
+     "start": 52.339,
+     "end": 52.597
+    },
+    {
+     "w": "mil",
+     "start": 52.597,
+     "end": 52.801
+    },
+    {
+     "w": "e",
+     "start": 52.801,
+     "end": 52.842
+    },
+    {
+     "w": "dezesseis,",
+     "start": 52.842,
+     "end": 53.548
+    },
+    {
+     "w": "o",
+     "start": 53.793,
+     "end": 53.888
+    },
+    {
+     "w": "FBI",
+     "start": 53.888,
+     "end": 54.513
+    },
+    {
+     "w": "encerrou",
+     "start": 54.513,
+     "end": 55.111
+    },
+    {
+     "w": "as",
+     "start": 55.111,
+     "end": 55.26
+    },
+    {
+     "w": "buscas.",
+     "start": 55.26,
+     "end": 55.899
+    },
+    {
+     "w": "Sem",
+     "start": 56.266,
+     "end": 56.687
+    },
+    {
+     "w": "solução.",
+     "start": 56.687,
+     "end": 57.421
+    }
+   ]
   },
   {
    "text": "Até hoje, ninguém sabe quem era D. B. Cooper.",
-   "start": 56.244,
-   "dur": 2.785
+   "start": 57.786,
+   "dur": 3.261,
+   "words": [
+    {
+     "w": "Até",
+     "start": 57.786,
+     "end": 58.112
+    },
+    {
+     "w": "hoje,",
+     "start": 58.113,
+     "end": 58.493
+    },
+    {
+     "w": "ninguém",
+     "start": 58.738,
+     "end": 59.172
+    },
+    {
+     "w": "sabe",
+     "start": 59.172,
+     "end": 59.593
+    },
+    {
+     "w": "quem",
+     "start": 59.593,
+     "end": 59.824
+    },
+    {
+     "w": "era",
+     "start": 59.824,
+     "end": 60.055
+    },
+    {
+     "w": "D.",
+     "start": 60.055,
+     "end": 60.422
+    },
+    {
+     "w": "B.",
+     "start": 60.422,
+     "end": 60.585
+    },
+    {
+     "w": "Cooper.",
+     "start": 60.585,
+     "end": 61.047
+    }
+   ]
   }
  ]
 }

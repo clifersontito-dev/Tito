@@ -139,11 +139,12 @@ export const Stamp: React.FC<{ text: string; at: number; top?: number; rotate?: 
   );
 };
 
-// Legenda da narração (palavra a palavra)
-export const Caption: React.FC<{ text: string; durationInFrames: number }> = ({ text, durationInFrames }) => {
+// Legenda sincronizada com a voz: cada palavra acende no tempo exato em que é falada
+export type Word = { w: string; start: number; end: number };
+export const Caption: React.FC<{ words: Word[]; lineStart: number }> = ({ words, lineStart }) => {
   const frame = useCurrentFrame();
-  const words = text.split(" ");
-  const shown = interpolate(frame, [0, durationInFrames * 0.92], [0, words.length], clamp);
+  const { fps } = useVideoConfig();
+  const t = lineStart + frame / fps;
   return (
     <div
       style={{
@@ -159,17 +160,24 @@ export const Caption: React.FC<{ text: string; durationInFrames: number }> = ({ 
         textTransform: "uppercase",
       }}
     >
-      {words.map((w, i) => (
-        <span
-          key={i}
-          style={{
-            color: i < shown - 1 ? "#ffffff" : i < shown ? "#ff3b3b" : "rgba(255,255,255,0.25)",
-            textShadow: "0 4px 12px #000, 0 0 3px #000",
-          }}
-        >
-          {w}{" "}
-        </span>
-      ))}
+      {words.map((w, i) => {
+        const speaking = t >= w.start && t < (words[i + 1]?.start ?? w.end + 0.3);
+        const said = t >= w.start;
+        return (
+          <span
+            key={i}
+            style={{
+              display: "inline-block",
+              marginRight: 16,
+              color: speaking ? "#ff3b3b" : said ? "#ffffff" : "rgba(255,255,255,0.25)",
+              scale: speaking ? "1.08" : "1",
+              textShadow: "0 4px 12px #000, 0 0 3px #000",
+            }}
+          >
+            {w.w}
+          </span>
+        );
+      })}
     </div>
   );
 };

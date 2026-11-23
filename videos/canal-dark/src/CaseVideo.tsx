@@ -47,7 +47,7 @@ export const CaseVideo: React.FC = () => {
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0) 58%, rgba(0,0,0,0.85) 78%, rgba(0,0,0,0.9) 100%)" }} />
       {L.map((line, i) => (
         <Sequence key={`c${i}`} name={`Legenda ${i + 1}`} from={Math.round(line.start * fps)} durationInFrames={Math.round((line.dur + 0.4) * fps)}>
-          <Caption text={line.text} durationInFrames={Math.round(line.dur * fps)} />
+          <Caption words={line.words} lineStart={Math.round(line.start * fps) / fps} />
         </Sequence>
       ))}
       <FilmLook />
