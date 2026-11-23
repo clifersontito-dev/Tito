@@ -1,792 +1,792 @@
 {
- "total": 63.85,
+ "total": 71.18,
  "lines": [
   {
    "text": "Vinte e quatro de novembro de mil novecentos e setenta e um.",
-   "start": 0.653,
-   "dur": 3.438,
+   "start": 0.6,
+   "dur": 5.08,
    "words": [
     {
      "w": "Vinte",
-     "start": 0.653,
-     "end": 0.979
+     "start": 0.6,
+     "end": 1.06
     },
     {
      "w": "e",
-     "start": 0.979,
-     "end": 1.02
+     "start": 1.06,
+     "end": 1.22
     },
     {
      "w": "quatro",
-     "start": 1.02,
-     "end": 1.441
+     "start": 1.22,
+     "end": 1.58
     },
     {
      "w": "de",
-     "start": 1.441,
-     "end": 1.536
+     "start": 1.58,
+     "end": 2.24
     },
     {
      "w": "novembro",
-     "start": 1.536,
-     "end": 2.148
+     "start": 2.24,
+     "end": 2.86
     },
     {
      "w": "de",
-     "start": 2.148,
-     "end": 2.284
+     "start": 2.86,
+     "end": 3.4
     },
     {
      "w": "mil",
-     "start": 2.284,
-     "end": 2.555
+     "start": 3.4,
+     "end": 3.58
     },
     {
      "w": "novecentos",
-     "start": 2.555,
-     "end": 3.153
+     "start": 3.58,
+     "end": 4.58
     },
     {
      "w": "e",
-     "start": 3.153,
-     "end": 3.262
+     "start": 4.58,
+     "end": 4.96
     },
     {
      "w": "setenta",
-     "start": 3.262,
-     "end": 3.765
+     "start": 4.96,
+     "end": 5.28
     },
     {
      "w": "e",
-     "start": 3.765,
-     "end": 3.833
+     "start": 5.28,
+     "end": 5.46
     },
     {
      "w": "um.",
-     "start": 3.833,
-     "end": 4.091
+     "start": 5.46,
+     "end": 5.68
     }
    ]
   },
   {
    "text": "Um homem de terno escuro compra uma passagem de Portland para Seattle... e dá um nome: Dan Cooper.",
-   "start": 4.459,
-   "dur": 6.059,
+   "start": 5.92,
+   "dur": 7.98,
    "words": [
     {
      "w": "Um",
-     "start": 4.459,
-     "end": 4.649
+     "start": 5.92,
+     "end": 6.2
     },
     {
      "w": "homem",
-     "start": 4.649,
-     "end": 4.961
+     "start": 6.2,
+     "end": 6.5
     },
     {
      "w": "de",
-     "start": 4.961,
-     "end": 5.124
+     "start": 6.5,
+     "end": 6.76
     },
     {
      "w": "terno",
-     "start": 5.124,
-     "end": 5.396
+     "start": 6.76,
+     "end": 7.14
     },
     {
      "w": "escuro",
-     "start": 5.396,
-     "end": 5.912
+     "start": 7.14,
+     "end": 7.68
     },
     {
      "w": "compra",
-     "start": 5.912,
-     "end": 6.307
+     "start": 7.68,
+     "end": 8.42
     },
     {
      "w": "uma",
-     "start": 6.307,
-     "end": 6.415
+     "start": 8.42,
+     "end": 8.7
     },
     {
      "w": "passagem",
-     "start": 6.415,
-     "end": 6.931
+     "start": 8.7,
+     "end": 9.38
     },
     {
      "w": "de",
-     "start": 6.932,
-     "end": 7.04
+     "start": 9.38,
+     "end": 9.5
     },
     {
      "w": "Portland",
-     "start": 7.04,
-     "end": 7.679
+     "start": 9.5,
+     "end": 10.0
     },
     {
      "w": "para",
-     "start": 7.679,
-     "end": 7.883
+     "start": 10.0,
+     "end": 10.68
     },
     {
      "w": "Seattle...",
-     "start": 7.883,
-     "end": 8.521
+     "start": 10.68,
+     "end": 11.2
     },
     {
      "w": "e",
-     "start": 8.711,
-     "end": 8.82
+     "start": 11.2,
+     "end": 11.78
     },
     {
      "w": "dá",
-     "start": 8.82,
-     "end": 9.024
+     "start": 11.78,
+     "end": 11.96
     },
     {
      "w": "um",
-     "start": 9.024,
-     "end": 9.133
+     "start": 11.96,
+     "end": 12.08
     },
     {
      "w": "nome:",
-     "start": 9.133,
-     "end": 9.486
+     "start": 12.08,
+     "end": 12.42
     },
     {
      "w": "Dan",
-     "start": 9.73,
-     "end": 10.029
+     "start": 12.42,
+     "end": 13.22
     },
     {
      "w": "Cooper.",
-     "start": 10.029,
-     "end": 10.518
+     "start": 13.22,
+     "end": 13.9
     }
    ]
   },
   {
    "text": "Logo depois da decolagem, ele entrega um bilhete à comissária. Diz que tem uma bomba na maleta.",
-   "start": 10.885,
-   "dur": 6.208,
+   "start": 14.22,
+   "dur": 6.68,
    "words": [
     {
      "w": "Logo",
-     "start": 10.885,
-     "end": 11.252
+     "start": 14.22,
+     "end": 14.66
     },
     {
      "w": "depois",
-     "start": 11.252,
-     "end": 11.592
+     "start": 14.66,
+     "end": 15.0
     },
     {
      "w": "da",
-     "start": 11.592,
-     "end": 11.714
+     "start": 15.0,
+     "end": 15.1
     },
     {
      "w": "decolagem,",
-     "start": 11.714,
-     "end": 12.461
+     "start": 15.1,
+     "end": 15.76
     },
     {
      "w": "ele",
-     "start": 12.692,
-     "end": 12.828
+     "start": 15.95,
+     "end": 16.34
     },
     {
      "w": "entrega",
-     "start": 12.828,
-     "end": 13.372
+     "start": 16.34,
+     "end": 16.78
     },
     {
      "w": "um",
-     "start": 13.372,
-     "end": 13.521
+     "start": 16.78,
+     "end": 16.86
     },
     {
      "w": "bilhete",
-     "start": 13.521,
-     "end": 14.092
+     "start": 16.86,
+     "end": 17.32
     },
     {
      "w": "à",
-     "start": 14.092,
-     "end": 14.133
+     "start": 17.32,
+     "end": 17.72
     },
     {
      "w": "comissária.",
-     "start": 14.133,
-     "end": 14.853
+     "start": 17.72,
+     "end": 18.3
     },
     {
      "w": "Diz",
-     "start": 15.232,
-     "end": 15.572
+     "start": 18.5,
+     "end": 18.9
     },
     {
      "w": "que",
-     "start": 15.572,
-     "end": 15.708
+     "start": 18.9,
+     "end": 19.06
     },
     {
      "w": "tem",
-     "start": 15.708,
-     "end": 15.857
+     "start": 19.06,
+     "end": 19.38
     },
     {
      "w": "uma",
-     "start": 15.857,
-     "end": 16.034
+     "start": 19.38,
+     "end": 19.94
     },
     {
      "w": "bomba",
-     "start": 16.034,
-     "end": 16.455
+     "start": 19.94,
+     "end": 20.34
     },
     {
      "w": "na",
-     "start": 16.455,
-     "end": 16.564
+     "start": 20.34,
+     "end": 20.44
     },
     {
      "w": "maleta.",
-     "start": 16.564,
-     "end": 17.093
+     "start": 20.44,
+     "end": 20.9
     }
    ]
   },
   {
    "text": "E exige duzentos mil dólares... e quatro paraquedas.",
-   "start": 17.474,
-   "dur": 3.845,
+   "start": 21.12,
+   "dur": 4.16,
    "words": [
     {
      "w": "E",
-     "start": 17.474,
-     "end": 17.569
+     "start": 21.12,
+     "end": 21.36
     },
     {
      "w": "exige",
-     "start": 17.569,
-     "end": 18.18
+     "start": 21.36,
+     "end": 21.9
     },
     {
      "w": "duzentos",
-     "start": 18.18,
-     "end": 18.792
+     "start": 21.9,
+     "end": 22.82
     },
     {
      "w": "mil",
-     "start": 18.792,
-     "end": 19.009
+     "start": 22.82,
+     "end": 23.02
     },
     {
      "w": "dólares...",
-     "start": 19.009,
-     "end": 19.594
+     "start": 23.02,
+     "end": 23.5
     },
     {
      "w": "e",
-     "start": 19.811,
-     "end": 19.947
+     "start": 23.5,
+     "end": 24.2
     },
     {
      "w": "quatro",
-     "start": 19.947,
-     "end": 20.436
+     "start": 24.2,
+     "end": 24.54
     },
     {
      "w": "paraquedas.",
-     "start": 20.436,
-     "end": 21.319
+     "start": 24.54,
+     "end": 25.28
     }
    ]
   },
   {
    "text": "Em Seattle, ele recebe o dinheiro e libera os passageiros.",
-   "start": 21.686,
-   "dur": 3.791,
+   "start": 25.78,
+   "dur": 3.66,
    "words": [
     {
      "w": "Em",
-     "start": 21.686,
-     "end": 21.876
+     "start": 25.78,
+     "end": 25.88
     },
     {
      "w": "Seattle,",
-     "start": 21.876,
-     "end": 22.542
+     "start": 25.88,
+     "end": 26.34
     },
     {
      "w": "ele",
-     "start": 22.746,
-     "end": 22.882
+     "start": 26.6,
+     "end": 26.94
     },
     {
      "w": "recebe",
-     "start": 22.882,
-     "end": 23.316
+     "start": 26.94,
+     "end": 27.38
     },
     {
      "w": "o",
-     "start": 23.316,
-     "end": 23.357
+     "start": 27.38,
+     "end": 27.48
     },
     {
      "w": "dinheiro",
-     "start": 23.357,
-     "end": 23.996
+     "start": 27.48,
+     "end": 27.8
     },
     {
      "w": "e",
-     "start": 23.996,
-     "end": 24.064
+     "start": 27.8,
+     "end": 28.38
     },
     {
      "w": "libera",
-     "start": 24.064,
-     "end": 24.512
+     "start": 28.38,
+     "end": 28.72
     },
     {
      "w": "os",
-     "start": 24.512,
-     "end": 24.58
+     "start": 28.72,
+     "end": 28.84
     },
     {
      "w": "passageiros.",
-     "start": 24.58,
-     "end": 25.477
+     "start": 28.84,
+     "end": 29.44
     }
    ]
   },
   {
    "text": "O avião volta a decolar, rumo ao México. Mas, sobre as florestas de Washington, a escada traseira se abre.",
-   "start": 25.843,
-   "dur": 8.085,
+   "start": 29.44,
+   "dur": 9.08,
    "words": [
     {
      "w": "O",
-     "start": 25.843,
-     "end": 25.939
+     "start": 29.44,
+     "end": 30.04
     },
     {
      "w": "avião",
-     "start": 25.939,
-     "end": 26.536
+     "start": 30.04,
+     "end": 30.32
     },
     {
      "w": "volta",
-     "start": 26.536,
-     "end": 26.903
+     "start": 30.32,
+     "end": 30.72
     },
     {
      "w": "a",
-     "start": 26.903,
-     "end": 26.93
+     "start": 30.72,
+     "end": 30.92
     },
     {
      "w": "decolar,",
-     "start": 26.93,
-     "end": 27.474
+     "start": 30.92,
+     "end": 31.24
     },
     {
      "w": "rumo",
-     "start": 27.773,
-     "end": 28.14
+     "start": 31.78,
+     "end": 32.02
     },
     {
      "w": "ao",
-     "start": 28.14,
-     "end": 28.262
+     "start": 32.02,
+     "end": 32.1
     },
     {
      "w": "México.",
-     "start": 28.262,
-     "end": 28.846
+     "start": 32.1,
+     "end": 32.48
     },
     {
      "w": "Mas,",
-     "start": 29.213,
-     "end": 29.756
+     "start": 33.12,
+     "end": 33.12
     },
     {
      "w": "sobre",
-     "start": 29.933,
-     "end": 30.232
+     "start": 33.12,
+     "end": 34.34
     },
     {
      "w": "as",
-     "start": 30.232,
-     "end": 30.327
+     "start": 34.34,
+     "end": 34.54
     },
     {
      "w": "florestas",
-     "start": 30.327,
-     "end": 30.993
+     "start": 34.54,
+     "end": 35.24
     },
     {
      "w": "de",
-     "start": 30.993,
-     "end": 31.115
+     "start": 35.24,
+     "end": 35.42
     },
     {
      "w": "Washington,",
-     "start": 31.115,
-     "end": 31.767
+     "start": 35.42,
+     "end": 35.94
     },
     {
      "w": "a",
-     "start": 31.971,
-     "end": 32.053
+     "start": 36.46,
+     "end": 36.52
     },
     {
      "w": "escada",
-     "start": 32.053,
-     "end": 32.637
+     "start": 36.52,
+     "end": 37.08
     },
     {
      "w": "traseira",
-     "start": 32.637,
-     "end": 33.303
+     "start": 37.44,
+     "end": 37.84
     },
     {
      "w": "se",
-     "start": 33.303,
-     "end": 33.52
+     "start": 37.84,
+     "end": 38.12
     },
     {
      "w": "abre.",
-     "start": 33.52,
-     "end": 33.928
+     "start": 38.12,
+     "end": 38.52
     }
    ]
   },
   {
    "text": "Cooper salta. No escuro. Debaixo de chuva. E desaparece.",
-   "start": 34.323,
-   "dur": 5.621,
+   "start": 38.98,
+   "dur": 4.34,
    "words": [
     {
      "w": "Cooper",
-     "start": 34.323,
-     "end": 34.69
+     "start": 38.98,
+     "end": 39.18
     },
     {
      "w": "salta.",
-     "start": 34.69,
-     "end": 35.233
+     "start": 39.18,
+     "end": 39.78
     },
     {
      "w": "No",
-     "start": 35.614,
-     "end": 35.912
+     "start": 40.2,
+     "end": 40.3
     },
     {
      "w": "escuro.",
-     "start": 35.913,
-     "end": 36.497
+     "start": 40.3,
+     "end": 40.76
     },
     {
      "w": "Debaixo",
-     "start": 36.876,
-     "end": 37.61
+     "start": 41.16,
+     "end": 41.54
     },
     {
      "w": "de",
-     "start": 37.61,
-     "end": 37.718
+     "start": 41.54,
+     "end": 41.7
     },
     {
      "w": "chuva.",
-     "start": 37.718,
-     "end": 38.289
+     "start": 41.7,
+     "end": 42.14
     },
     {
      "w": "E",
-     "start": 38.666,
-     "end": 38.911
+     "start": 42.52,
+     "end": 42.58
     },
     {
      "w": "desaparece.",
-     "start": 38.911,
-     "end": 39.944
+     "start": 42.58,
+     "end": 43.32
     }
    ]
   },
   {
    "text": "Mais de oitocentos suspeitos foram investigados.",
-   "start": 40.314,
-   "dur": 3.274,
+   "start": 43.68,
+   "dur": 3.74,
    "words": [
     {
      "w": "Mais",
-     "start": 40.314,
-     "end": 40.708
+     "start": 43.68,
+     "end": 44.02
     },
     {
      "w": "de",
-     "start": 40.708,
-     "end": 40.83
+     "start": 44.02,
+     "end": 44.28
     },
     {
      "w": "oitocentos",
-     "start": 40.83,
-     "end": 41.55
+     "start": 44.28,
+     "end": 45.04
     },
     {
      "w": "suspeitos",
-     "start": 41.55,
-     "end": 42.243
+     "start": 45.04,
+     "end": 45.74
     },
     {
      "w": "foram",
-     "start": 42.243,
-     "end": 42.623
+     "start": 45.74,
+     "end": 46.66
     },
     {
      "w": "investigados.",
-     "start": 42.623,
-     "end": 43.588
+     "start": 46.66,
+     "end": 47.42
     }
    ]
   },
   {
    "text": "Em mil novecentos e oitenta, um menino encontra parte do resgate enterrada na beira de um rio.",
-   "start": 43.968,
-   "dur": 5.653,
+   "start": 48.02,
+   "dur": 6.78,
    "words": [
     {
      "w": "Em",
-     "start": 43.968,
-     "end": 44.104
+     "start": 48.02,
+     "end": 48.16
     },
     {
      "w": "mil",
-     "start": 44.104,
-     "end": 44.295
+     "start": 48.16,
+     "end": 48.28
     },
     {
      "w": "novecentos",
-     "start": 44.295,
-     "end": 44.784
+     "start": 48.28,
+     "end": 48.98
     },
     {
      "w": "e",
-     "start": 44.784,
-     "end": 44.892
+     "start": 48.98,
+     "end": 49.08
     },
     {
      "w": "oitenta,",
-     "start": 44.892,
-     "end": 45.409
+     "start": 49.08,
+     "end": 49.56
     },
     {
      "w": "um",
-     "start": 45.585,
-     "end": 45.748
+     "start": 50.02,
+     "end": 50.16
     },
     {
      "w": "menino",
-     "start": 45.748,
-     "end": 46.142
+     "start": 50.16,
+     "end": 50.5
     },
     {
      "w": "encontra",
-     "start": 46.142,
-     "end": 46.618
+     "start": 50.5,
+     "end": 50.78
     },
     {
      "w": "parte",
-     "start": 46.618,
-     "end": 47.066
+     "start": 50.78,
+     "end": 51.42
     },
     {
      "w": "do",
-     "start": 47.066,
-     "end": 47.134
+     "start": 51.42,
+     "end": 51.6
     },
     {
      "w": "resgate",
-     "start": 47.134,
-     "end": 47.8
+     "start": 51.6,
+     "end": 52.2
     },
     {
      "w": "enterrada",
-     "start": 47.8,
-     "end": 48.507
+     "start": 52.2,
+     "end": 53.34
     },
     {
      "w": "na",
-     "start": 48.507,
-     "end": 48.67
+     "start": 53.34,
+     "end": 53.84
     },
     {
      "w": "beira",
-     "start": 48.67,
-     "end": 49.064
+     "start": 53.84,
+     "end": 54.22
     },
     {
      "w": "de",
-     "start": 49.064,
-     "end": 49.172
+     "start": 54.22,
+     "end": 54.38
     },
     {
      "w": "um",
-     "start": 49.172,
-     "end": 49.295
+     "start": 54.38,
+     "end": 54.46
     },
     {
      "w": "rio.",
-     "start": 49.295,
-     "end": 49.621
+     "start": 54.46,
+     "end": 54.8
     }
    ]
   },
   {
    "text": "Do homem... nenhum sinal.",
-   "start": 49.988,
-   "dur": 1.82,
+   "start": 55.16,
+   "dur": 2.62,
    "words": [
     {
      "w": "Do",
-     "start": 49.988,
-     "end": 50.178
+     "start": 55.16,
+     "end": 55.28
     },
     {
      "w": "homem...",
-     "start": 50.178,
-     "end": 50.599
+     "start": 55.28,
+     "end": 55.78
     },
     {
      "w": "nenhum",
-     "start": 50.857,
-     "end": 51.278
+     "start": 55.78,
+     "end": 56.8
     },
     {
      "w": "sinal.",
-     "start": 51.278,
-     "end": 51.808
+     "start": 56.8,
+     "end": 57.78
     }
    ]
   },
   {
    "text": "Em dois mil e dezesseis, o FBI encerrou as buscas. Sem solução.",
-   "start": 52.19,
-   "dur": 5.231,
+   "start": 58.22,
+   "dur": 5.32,
    "words": [
     {
      "w": "Em",
-     "start": 52.19,
-     "end": 52.339
+     "start": 58.22,
+     "end": 58.32
     },
     {
      "w": "dois",
-     "start": 52.339,
-     "end": 52.597
+     "start": 58.32,
+     "end": 58.48
     },
     {
      "w": "mil",
-     "start": 52.597,
-     "end": 52.801
+     "start": 58.48,
+     "end": 58.82
     },
     {
      "w": "e",
-     "start": 52.801,
-     "end": 52.842
+     "start": 58.82,
+     "end": 58.98
     },
     {
      "w": "dezesseis,",
-     "start": 52.842,
-     "end": 53.548
+     "start": 58.98,
+     "end": 59.94
     },
     {
      "w": "o",
-     "start": 53.793,
-     "end": 53.888
+     "start": 59.94,
+     "end": 60.3
     },
     {
      "w": "FBI",
-     "start": 53.888,
-     "end": 54.513
+     "start": 60.3,
+     "end": 60.78
     },
     {
      "w": "encerrou",
-     "start": 54.513,
-     "end": 55.111
+     "start": 60.78,
+     "end": 61.44
     },
     {
      "w": "as",
-     "start": 55.111,
-     "end": 55.26
+     "start": 61.44,
+     "end": 61.6
     },
     {
      "w": "buscas.",
-     "start": 55.26,
-     "end": 55.899
+     "start": 61.6,
+     "end": 62.04
     },
     {
      "w": "Sem",
-     "start": 56.266,
-     "end": 56.687
+     "start": 62.52,
+     "end": 62.9
     },
     {
      "w": "solução.",
-     "start": 56.687,
-     "end": 57.421
+     "start": 62.9,
+     "end": 63.54
     }
    ]
   },
   {
    "text": "Até hoje, ninguém sabe quem era D. B. Cooper.",
-   "start": 57.786,
-   "dur": 3.261,
+   "start": 63.82,
+   "dur": 4.56,
    "words": [
     {
      "w": "Até",
-     "start": 57.786,
-     "end": 58.112
+     "start": 63.82,
+     "end": 64.08
     },
     {
      "w": "hoje,",
-     "start": 58.113,
-     "end": 58.493
+     "start": 64.08,
+     "end": 64.58
     },
     {
      "w": "ninguém",
-     "start": 58.738,
-     "end": 59.172
+     "start": 64.96,
+     "end": 65.38
     },
     {
      "w": "sabe",
-     "start": 59.172,
-     "end": 59.593
+     "start": 65.38,
+     "end": 66.14
     },
     {
      "w": "quem",
-     "start": 59.593,
-     "end": 59.824
+     "start": 66.14,
+     "end": 66.76
     },
     {
      "w": "era",
-     "start": 59.824,
-     "end": 60.055
+     "start": 66.76,
+     "end": 67.16
     },
     {
      "w": "D.",
-     "start": 60.055,
-     "end": 60.422
+     "start": 67.16,
+     "end": 67.76
     },
     {
      "w": "B.",
-     "start": 60.422,
-     "end": 60.585
+     "start": 67.88,
+     "end": 67.98
     },
     {
      "w": "Cooper.",
-     "start": 60.585,
-     "end": 61.047
+     "start": 68.12,
+     "end": 68.38
     }
    ]
   }
